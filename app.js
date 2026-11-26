@@ -113,7 +113,6 @@ async function init(){
     try{const response=await fetch('branches.json',{cache:'no-store'});if(!response.ok)throw Error('Branches request failed');const data=await response.json();if(!Array.isArray(data.branches))throw Error('Invalid branch data');branches=data.branches.filter(b=>b&&typeof b.id==='string'&&typeof b.name==='string'&&features.some(f=>provinceName(f)===b.province))}catch{dataFailed=true}
     features.map(provinceName).sort((a,b)=>a.localeCompare(b,'fa')).forEach(name=>$('province-select').append(node('option',{value:name},name)));
     $('map-loading').hidden=true;readHash();
-    if(dataFailed)document.querySelector('.data-note p').textContent='دریافت اطلاعات شعب با مشکل روبه‌رو شد. لطفاً دوباره تلاش کنید.';
   }catch{
     $('map-loading').textContent='نقشه دریافت نشد. لطفاً دوباره تلاش کنید.';
     const retry=node('button',{type:'button',class:'retry'},'تلاش دوباره');retry.addEventListener('click',()=>location.reload());$('map-loading').append(retry);$('status').textContent='خطا در دریافت نقشه';
