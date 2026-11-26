@@ -45,6 +45,7 @@ function drawMap() {
     const name=provinceName(f);
     const path=svgNode('path',{d:rings(f).map(r=>r.map((p,i)=>{const [x,y]=fit(project(p));return (i?'L':'M')+x.toFixed(2)+','+y.toFixed(2)}).join('')+'Z').join(''),class:'region'+(name===selected?' selected':''),role:'button',tabindex:'0','aria-label':'انتخاب استان '+name,'aria-pressed':String(name===selected),'data-province':name});
     const title=svgNode('title',{});title.textContent=name;path.append(title);
+    path.style.fill='#e5e8eb';
     path.addEventListener('click',()=>setProvince(name));
     path.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();setProvince(name)}});
     path.addEventListener('pointermove',e=>{const rect=$('map-stage').getBoundingClientRect();$('tooltip').textContent=name;$('tooltip').style.left=(e.clientX-rect.left)+'px';$('tooltip').style.top=(e.clientY-rect.top)+'px';$('tooltip').classList.add('visible')});
