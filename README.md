@@ -8,7 +8,13 @@ Run `python -m http.server 4177` from this folder and open http://localhost:4177
 
 ## Branch data
 
-`branches.json` is intentionally empty: the supplied workbook contained campaign planning, not verified branch records. Do not interpret an empty list as absence of X.point coverage in a province.
+`branches.json` contains all 94 records from the user-supplied `لیست شعب 14050708.xlsx` (Sheet1, rows 2–95): 12 X.point, 51 Maadiran, 30 retirement associations (Kanon), and 1 X.Vision Shop. Category comes from the store type first (Kanon), then brand. 90 records are active, 2 are being established, and 2 are being redesigned; non-active records retain their source status prominently. Province spelling is normalized to the map dataset. No internal extension, postal code, opening date, or staff/store email is published.
+
+81 records have coordinates extracted from explicit map pin URLs, numeric Google Maps search destinations, or the `data-ssr-loc` coordinates of the supplied Neshan share links. Use the final `!3d/!4d` pair, never a viewport `@` camera coordinate. 13 records have no reliable exact branch pin; two of these retain their supplied Neshan place links. A Google link naming the entire city of Malayer is excluded as a branch pin. Missing positions are not guessed or geocoded to city centers. All 94 records remain listed with their available contact/address data.
+
+Phone actions use validated Iranian 11-digit numbers, handling reversed area codes, multiline phone lists and abbreviated landline ranges (first number for dialing, original text retained for display). A mobile number missing its leading zero is formatted with the standard zero prefix. The malformed Malayer contact is displayed as provided with a verification note and no call action.
+
+Neshan routing opens the web route with the exact branch destination using `/maps/routing/car/destination/{latitude},{longitude}`; users choose their origin in Neshan. This route format was verified against Neshan's public client route parser (`3524-6a36d51b75de1fee0b3e.js`, checked 2026-11-26). See also the [official Neshan deep-link FAQ](https://platform.neshan.org/faq/). Existing Neshan links are used for records without extracted coordinates. No API key is needed for opening Neshan; no origin location is collected by this page.
 
 Add verified records in this shape (values below describe fields, not a real branch):
 
@@ -18,10 +24,13 @@ Add verified records in this shape (values below describe fields, not a real bra
   "branches": [{
     "id": "unique-branch-id",
     "name": "نام شعبه",
+    "category": "xpoint",
+    "status": "فعال",
     "province": "تهران",
     "city": "نام شهر",
     "address": "نشانی تأییدشده",
-    "phone": "+98...",
+    "phone": "شماره تماس به شکل نمایش در فایل",
+    "phones": ["02112345678"],
     "hours": "ساعت کاری تأییدشده",
     "latitude": 35.0,
     "longitude": 51.0
