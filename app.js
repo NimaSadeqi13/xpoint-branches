@@ -51,10 +51,11 @@ function drawMap() {
     path.addEventListener('pointerleave',()=>$('tooltip').classList.remove('visible'));
     $('regions').append(path);
   }
-  for(const b of branches.filter(b=>(!selected||b.province===selected)&&matchesCategory(b)&&matchesQuery(b))) {
+  const visibleBranches=branches.filter(b=>(!selected||b.province===selected)&&matchesCategory(b)&&matchesQuery(b)).sort((a,b)=>Number(a.id===activeBranch)-Number(b.id===activeBranch)||Number(a.category==='xpoint')-Number(b.category==='xpoint'));
+  for(const b of visibleBranches) {
     if(!validCoordinates(b))continue;
     const [x,y]=fit(project([b.longitude,b.latitude]));
-    const pin=svgNode('circle',{cx:x,cy:y,r:selected?8:5,class:'pin'+(b.id===activeBranch?' active':''),role:'button',tabindex:'0','aria-label':b.name+'، '+(categories[b.category]||'')+'، '+(b.status||'')});
+    const pin=svgNode('circle',{cx:x,cy:y,r:selected?8:5,class:'pin'+(b.id===activeBranch?' active':''),'data-branch-id':b.id,'data-store-category':b.category||'','data-latitude':b.latitude,'data-longitude':b.longitude,role:'button',tabindex:'0','aria-label':b.name+'، '+(categories[b.category]||'')+'، '+(b.status||'')});
     const title=svgNode('title',{});title.textContent=b.name;pin.append(title);
     const choose=()=>{if(!selected){setProvince(b.province)}activeBranch=b.id;renderResults();drawMap();const card=document.getElementById('branch-'+b.id);card?.scrollIntoView({block:'nearest',behavior:'smooth'});card?.focus({preventScroll:true})};
     pin.addEventListener('click',choose);pin.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();choose()}});$('pins').append(pin);

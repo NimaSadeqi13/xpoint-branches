@@ -8,7 +8,7 @@ Run `python -m http.server 4177` from this folder and open http://localhost:4177
 
 ## Branch data
 
-`branches.json` contains all 94 records from the user-supplied `لیست شعب 14050708.xlsx` (Sheet1, rows 2–95): 12 X.point, 51 Maadiran, 30 retirement associations (Kanon), and 1 X.Vision Shop. Category comes from the store type first (Kanon), then brand. 90 records are active, 2 are being established, and 2 are being redesigned; non-active records retain their source status prominently. Province spelling is normalized to the map dataset. No internal extension, postal code, opening date, or staff/store email is published.
+`branches.json` contains all 94 records from the user-supplied `لیست شعب 14050708.xlsx` (Sheet1, rows 2–95): 12 X.point, 51 Maadiran, 30 retirement associations (Kanon), and 1 X.Vision Shop. Category comes from the store type first (Kanon), then brand. 92 records are active and 2 are being redesigned; non-active records retain their source status prominently. Province spelling is normalized to the map dataset. No internal extension, postal code, opening date, or staff/store email is published.
 
 81 records have coordinates extracted from explicit map pin URLs, numeric Google Maps search destinations, or the `data-ssr-loc` coordinates of the supplied Neshan share links. Use the final `!3d/!4d` pair, never a viewport `@` camera coordinate. 13 records have no reliable exact branch pin; two of these retain their supplied Neshan place links. A Google link naming the entire city of Malayer is excluded as a branch pin. Missing positions are not guessed or geocoded to city centers. All 94 records remain listed with their available contact/address data.
 
@@ -55,3 +55,7 @@ Province boundaries are derived from [hosseinhabibi2004/iran-geojson](https://gi
 ## Publishing
 
 GitHub Pages serves the main branch root. No secrets or original strategy documents are included in this repository.
+
+## Map colors and position accuracy
+
+Province fills stay neutral gray in overview, hover, and selected views. Only X.point branch dots use the official orange; other branch dots remain dark gray, including when active. Active/hover state uses an outline. Points are never jittered or shifted for overlap; X.point dots are painted above other dots. Polygons and pins share one geographic projection and fit, including after province selection and viewport resizing. The source workbook update activates Langarud and Noor, with no changes to location links.
