@@ -18,7 +18,12 @@
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 37.2063806,
       "longitude": 50.002482,
-      "neshanUrl": "https://nshn.ir/_bWTSJNBn5f0"
+      "neshanUrl": "https://nshn.ir/_bWTSJNBn5f0",
+      "photo": {
+        "src": "assets/storefronts/branch-001.webp",
+        "width": 1440,
+        "height": 665
+      }
     },
     {
       "id": "branch-002",
@@ -34,7 +39,12 @@
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 38.0680556,
-      "longitude": 46.28975
+      "longitude": 46.28975,
+      "photo": {
+        "src": "assets/storefronts/branch-002.webp",
+        "width": 1440,
+        "height": 1080
+      }
     },
     {
       "id": "branch-003",
@@ -48,7 +58,12 @@
       "phones": [
         "02141703900"
       ],
-      "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00"
+      "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+      "photo": {
+        "src": "assets/storefronts/branch-003.webp",
+        "width": 1080,
+        "height": 1440
+      }
     },
     {
       "id": "branch-004",
@@ -64,7 +79,12 @@
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 35.9530179,
-      "longitude": 50.6904723
+      "longitude": 50.6904723,
+      "photo": {
+        "src": "assets/storefronts/branch-004.webp",
+        "width": 732,
+        "height": 976
+      }
     },
     {
       "id": "branch-005",
@@ -92,7 +112,12 @@
       "phones": [
         "07691010260"
       ],
-      "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00"
+      "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+      "photo": {
+        "src": "assets/storefronts/branch-006.webp",
+        "width": 1018,
+        "height": 975
+      }
     },
     {
       "id": "branch-007",
@@ -109,7 +134,12 @@
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 37.473961599999996,
       "longitude": 49.455942099999994,
-      "neshanUrl": "https://nshn.ir/e0_bL1eiIBxMcI"
+      "neshanUrl": "https://nshn.ir/e0_bL1eiIBxMcI",
+      "photo": {
+        "src": "assets/storefronts/branch-007.webp",
+        "width": 1391,
+        "height": 1440
+      }
     },
     {
       "id": "branch-008",
@@ -126,7 +156,12 @@
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 32.6751354,
       "longitude": 51.6516707,
-      "neshanUrl": "https://nshn.ir/_bZDwhOxa1TJ"
+      "neshanUrl": "https://nshn.ir/_bZDwhOxa1TJ",
+      "photo": {
+        "src": "assets/storefronts/branch-008.webp",
+        "width": 1440,
+        "height": 1080
+      }
     },
     {
       "id": "branch-009",
@@ -141,7 +176,12 @@
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 37.1923098,
       "longitude": 50.1543365,
-      "neshanUrl": "https://nshn.ir/_bWRgHOBDShE"
+      "neshanUrl": "https://nshn.ir/_bWRgHOBDShE",
+      "photo": {
+        "src": "assets/storefronts/branch-009.webp",
+        "width": 891,
+        "height": 636
+      }
     },
     {
       "id": "branch-010",
@@ -158,7 +198,12 @@
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 36.5766853,
       "longitude": 52.0157902,
-      "neshanUrl": "https://nshn.ir/7bfZk_QFYSRo"
+      "neshanUrl": "https://nshn.ir/7bfZk_QFYSRo",
+      "photo": {
+        "src": "assets/storefronts/branch-010.webp",
+        "width": 1296,
+        "height": 584
+      }
     },
     {
       "id": "branch-011",
@@ -174,7 +219,12 @@
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 32.379861,
-      "longitude": 48.400489
+      "longitude": 48.400489,
+      "photo": {
+        "src": "assets/storefronts/branch-011.webp",
+        "width": 750,
+        "height": 1000
+      }
     },
     {
       "id": "branch-012",
@@ -206,7 +256,12 @@
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 37.2766626,
-      "longitude": 49.5937067
+      "longitude": 49.5937067,
+      "photo": {
+        "src": "assets/storefronts/branch-013.webp",
+        "width": 1440,
+        "height": 1181
+      }
     },
     {
       "id": "branch-014",
@@ -222,7 +277,12 @@
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 36.3263075,
-      "longitude": 59.5343649
+      "longitude": 59.5343649,
+      "photo": {
+        "src": "assets/storefronts/branch-014.webp",
+        "width": 883,
+        "height": 644
+      }
     },
     {
       "id": "branch-015",
@@ -238,7 +298,12 @@
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 34.7907984,
-      "longitude": 48.5127014
+      "longitude": 48.5127014,
+      "photo": {
+        "src": "assets/storefronts/branch-015.webp",
+        "width": 1440,
+        "height": 1246
+      }
     },
     {
       "id": "branch-016",
@@ -254,7 +319,12 @@
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 38.24425,
-      "longitude": 48.2853056
+      "longitude": 48.2853056,
+      "photo": {
+        "src": "assets/storefronts/branch-016.webp",
+        "width": 1440,
+        "height": 649
+      }
     },
     {
       "id": "branch-017",
@@ -286,7 +356,12 @@
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 31.3210251,
-      "longitude": 48.6862081
+      "longitude": 48.6862081,
+      "photo": {
+        "src": "assets/storefronts/branch-018.webp",
+        "width": 1440,
+        "height": 810
+      }
     },
     {
       "id": "branch-019",
@@ -302,7 +377,12 @@
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 35.7337127,
-      "longitude": 50.9905797
+      "longitude": 50.9905797,
+      "photo": {
+        "src": "assets/storefronts/branch-019.webp",
+        "width": 1440,
+        "height": 665
+      }
     },
     {
       "id": "branch-020",
@@ -318,7 +398,12 @@
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 36.6578607,
-      "longitude": 51.4776152
+      "longitude": 51.4776152,
+      "photo": {
+        "src": "assets/storefronts/branch-020.webp",
+        "width": 1013,
+        "height": 391
+      }
     },
     {
       "id": "branch-021",
@@ -334,7 +419,12 @@
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 35.6572778,
-      "longitude": 51.0651667
+      "longitude": 51.0651667,
+      "photo": {
+        "src": "assets/storefronts/branch-021.webp",
+        "width": 1440,
+        "height": 665
+      }
     },
     {
       "id": "branch-022",
@@ -384,7 +474,12 @@
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 31.865774,
-      "longitude": 54.3793255
+      "longitude": 54.3793255,
+      "photo": {
+        "src": "assets/storefronts/branch-024.webp",
+        "width": 810,
+        "height": 1440
+      }
     },
     {
       "id": "branch-025",
@@ -400,7 +495,12 @@
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 35.72175,
-      "longitude": 51.3436389
+      "longitude": 51.3436389,
+      "photo": {
+        "src": "assets/storefronts/branch-025.webp",
+        "width": 960,
+        "height": 1280
+      }
     },
     {
       "id": "branch-026",
@@ -448,7 +548,12 @@
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 37.2515293,
-      "longitude": 55.1773685
+      "longitude": 55.1773685,
+      "photo": {
+        "src": "assets/storefronts/branch-028.webp",
+        "width": 1080,
+        "height": 1440
+      }
     },
     {
       "id": "branch-029",
@@ -463,7 +568,12 @@
         "02634060600"
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
-      "neshanUrl": "https://neshan.org/maps/places/vbvxukPxW4Mn"
+      "neshanUrl": "https://neshan.org/maps/places/vbvxukPxW4Mn",
+      "photo": {
+        "src": "assets/storefronts/branch-029.webp",
+        "width": 1000,
+        "height": 750
+      }
     },
     {
       "id": "branch-030",
@@ -479,7 +589,12 @@
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 30.2901413,
-      "longitude": 57.0641792
+      "longitude": 57.0641792,
+      "photo": {
+        "src": "assets/storefronts/branch-030.webp",
+        "width": 1308,
+        "height": 666
+      }
     },
     {
       "id": "branch-031",
@@ -495,7 +610,12 @@
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 37.3967778,
-      "longitude": 46.2425278
+      "longitude": 46.2425278,
+      "photo": {
+        "src": "assets/storefronts/branch-031.webp",
+        "width": 1440,
+        "height": 649
+      }
     },
     {
       "id": "branch-032",
@@ -511,7 +631,12 @@
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 37.5414444,
-      "longitude": 45.0713056
+      "longitude": 45.0713056,
+      "photo": {
+        "src": "assets/storefronts/branch-032.webp",
+        "width": 1020,
+        "height": 765
+      }
     },
     {
       "id": "branch-033",
@@ -543,7 +668,12 @@
       ],
       "hours": "شنبه تا چهارشنبه 8:30 الی 14:00",
       "latitude": 36.9068137,
-      "longitude": 54.8596126
+      "longitude": 54.8596126,
+      "photo": {
+        "src": "assets/storefronts/branch-034.webp",
+        "width": 1440,
+        "height": 1080
+      }
     },
     {
       "id": "branch-035",
@@ -591,7 +721,12 @@
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 36.2815035,
-      "longitude": 50.014084
+      "longitude": 50.014084,
+      "photo": {
+        "src": "assets/storefronts/branch-037.webp",
+        "width": 1440,
+        "height": 1080
+      }
     },
     {
       "id": "branch-038",
@@ -607,7 +742,12 @@
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 33.6351775,
-      "longitude": 46.424666
+      "longitude": 46.424666,
+      "photo": {
+        "src": "assets/storefronts/branch-038.webp",
+        "width": 1020,
+        "height": 768
+      }
     },
     {
       "id": "branch-039",
@@ -623,7 +763,12 @@
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 34.3013937,
-      "longitude": 47.0586222
+      "longitude": 47.0586222,
+      "photo": {
+        "src": "assets/storefronts/branch-039.webp",
+        "width": 1280,
+        "height": 732
+      }
     },
     {
       "id": "branch-040",
@@ -639,7 +784,12 @@
       ],
       "hours": "شنبه تا چهارشنبه 8:30 الی 14:00",
       "latitude": 29.4624945,
-      "longitude": 55.6694055
+      "longitude": 55.6694055,
+      "photo": {
+        "src": "assets/storefronts/branch-040.webp",
+        "width": 892,
+        "height": 1440
+      }
     },
     {
       "id": "branch-041",
@@ -669,7 +819,12 @@
       ],
       "hours": "شنبه تا چهارشنبه 8:30 الی 14:00",
       "latitude": 32.6945556,
-      "longitude": 51.6228333
+      "longitude": 51.6228333,
+      "photo": {
+        "src": "assets/storefronts/branch-042.webp",
+        "width": 1440,
+        "height": 1080
+      }
     },
     {
       "id": "branch-043",
@@ -717,7 +872,12 @@
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 35.4208392,
-      "longitude": 59.057161
+      "longitude": 59.057161,
+      "photo": {
+        "src": "assets/storefronts/branch-045.webp",
+        "width": 1440,
+        "height": 1080
+      }
     },
     {
       "id": "branch-046",
@@ -733,7 +893,12 @@
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 36.2093779,
-      "longitude": 57.6761627
+      "longitude": 57.6761627,
+      "photo": {
+        "src": "assets/storefronts/branch-046.webp",
+        "width": 1440,
+        "height": 1169
+      }
     },
     {
       "id": "branch-047",
@@ -749,7 +914,12 @@
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 36.6984184,
-      "longitude": 52.6491988
+      "longitude": 52.6491988,
+      "photo": {
+        "src": "assets/storefronts/branch-047.webp",
+        "width": 1440,
+        "height": 648
+      }
     },
     {
       "id": "branch-048",
@@ -765,7 +935,12 @@
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 36.8326258,
-      "longitude": 54.4402546
+      "longitude": 54.4402546,
+      "photo": {
+        "src": "assets/storefronts/branch-048.webp",
+        "width": 1440,
+        "height": 1080
+      }
     },
     {
       "id": "branch-049",
@@ -813,7 +988,12 @@
       ],
       "hours": "شنبه تا چهارشنبه 8:30 الی 14:00",
       "latitude": 36.5647222,
-      "longitude": 53.0459167
+      "longitude": 53.0459167,
+      "photo": {
+        "src": "assets/storefronts/branch-051.webp",
+        "width": 960,
+        "height": 1280
+      }
     },
     {
       "id": "branch-052",
@@ -829,7 +1009,12 @@
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 38.43225,
-      "longitude": 45.7743333
+      "longitude": 45.7743333,
+      "photo": {
+        "src": "assets/storefronts/branch-052.webp",
+        "width": 1440,
+        "height": 1080
+      }
     },
     {
       "id": "branch-053",
@@ -859,7 +1044,12 @@
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 32.2489454,
-      "longitude": 54.0156877
+      "longitude": 54.0156877,
+      "photo": {
+        "src": "assets/storefronts/branch-054.webp",
+        "width": 1440,
+        "height": 1080
+      }
     },
     {
       "id": "branch-055",
@@ -873,7 +1063,12 @@
       "phones": [
         "03191550031"
       ],
-      "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00"
+      "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+      "photo": {
+        "src": "assets/storefronts/branch-055.webp",
+        "width": 1440,
+        "height": 1080
+      }
     },
     {
       "id": "branch-056",
@@ -888,7 +1083,12 @@
         "07191550071"
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
-      "neshanUrl": "https://neshan.org/maps/places/rbg41HWxaR8H#c35.689-51.389-11z-0p"
+      "neshanUrl": "https://neshan.org/maps/places/rbg41HWxaR8H#c35.689-51.389-11z-0p",
+      "photo": {
+        "src": "assets/storefronts/branch-056.webp",
+        "width": 960,
+        "height": 1280
+      }
     },
     {
       "id": "branch-057",
@@ -904,7 +1104,12 @@
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 31.9358531,
-      "longitude": 49.3009758
+      "longitude": 49.3009758,
+      "photo": {
+        "src": "assets/storefronts/branch-057.webp",
+        "width": 1254,
+        "height": 1254
+      }
     },
     {
       "id": "branch-058",
@@ -936,7 +1141,12 @@
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 39.6503889,
-      "longitude": 47.9079167
+      "longitude": 47.9079167,
+      "photo": {
+        "src": "assets/storefronts/branch-059.webp",
+        "width": 1080,
+        "height": 1440
+      }
     },
     {
       "id": "branch-060",
@@ -952,7 +1162,12 @@
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 37.381268,
-      "longitude": 55.4947114
+      "longitude": 55.4947114,
+      "photo": {
+        "src": "assets/storefronts/branch-060.webp",
+        "width": 811,
+        "height": 1440
+      }
     },
     {
       "id": "branch-061",
@@ -968,7 +1183,12 @@
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 21:00",
       "latitude": 36.4645556,
-      "longitude": 52.8545833
+      "longitude": 52.8545833,
+      "photo": {
+        "src": "assets/storefronts/branch-061.webp",
+        "width": 1440,
+        "height": 1080
+      }
     },
     {
       "id": "branch-062",
@@ -984,7 +1204,12 @@
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 36.5674876,
-      "longitude": 52.6781988
+      "longitude": 52.6781988,
+      "photo": {
+        "src": "assets/storefronts/branch-062.webp",
+        "width": 1440,
+        "height": 1080
+      }
     },
     {
       "id": "branch-063",
@@ -1000,7 +1225,12 @@
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 37.0869841,
-      "longitude": 55.1735276
+      "longitude": 55.1735276,
+      "photo": {
+        "src": "assets/storefronts/branch-063.webp",
+        "width": 1280,
+        "height": 990
+      }
     },
     {
       "id": "branch-064",
@@ -1032,7 +1262,12 @@
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 36.158279,
-      "longitude": 50.0691158
+      "longitude": 50.0691158,
+      "photo": {
+        "src": "assets/storefronts/branch-065.webp",
+        "width": 1440,
+        "height": 1218
+      }
     },
     {
       "id": "branch-066",
@@ -1048,7 +1283,12 @@
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 37.4762809,
-      "longitude": 57.3320584
+      "longitude": 57.3320584,
+      "photo": {
+        "src": "assets/storefronts/branch-066.webp",
+        "width": 1280,
+        "height": 650
+      }
     },
     {
       "id": "branch-067",
@@ -1064,7 +1304,12 @@
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 37.2710228,
-      "longitude": 49.5792443
+      "longitude": 49.5792443,
+      "photo": {
+        "src": "assets/storefronts/branch-067.webp",
+        "width": 1440,
+        "height": 1080
+      }
     },
     {
       "id": "branch-068",
@@ -1080,7 +1325,12 @@
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 32.8802765,
-      "longitude": 59.2129423
+      "longitude": 59.2129423,
+      "photo": {
+        "src": "assets/storefronts/branch-068.webp",
+        "width": 1440,
+        "height": 788
+      }
     },
     {
       "id": "branch-069",
@@ -1113,7 +1363,12 @@
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 36.911978,
-      "longitude": 50.6501806
+      "longitude": 50.6501806,
+      "photo": {
+        "src": "assets/storefronts/branch-070.webp",
+        "width": 1440,
+        "height": 1080
+      }
     },
     {
       "id": "branch-071",
@@ -1145,7 +1400,12 @@
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 36.4237091,
-      "longitude": 54.9661446
+      "longitude": 54.9661446,
+      "photo": {
+        "src": "assets/storefronts/branch-072.webp",
+        "width": 1440,
+        "height": 1080
+      }
     },
     {
       "id": "branch-073",
@@ -1161,7 +1421,12 @@
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 37.799875,
-      "longitude": 48.905833
+      "longitude": 48.905833,
+      "photo": {
+        "src": "assets/storefronts/branch-073.webp",
+        "width": 1440,
+        "height": 1080
+      }
     },
     {
       "id": "branch-074",
@@ -1203,7 +1468,12 @@
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 37.42375,
-      "longitude": 47.7083056
+      "longitude": 47.7083056,
+      "photo": {
+        "src": "assets/storefronts/branch-076.webp",
+        "width": 1440,
+        "height": 1009
+      }
     },
     {
       "id": "branch-077",
@@ -1235,7 +1505,12 @@
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 36.198777,
-      "longitude": 58.798095
+      "longitude": 58.798095,
+      "photo": {
+        "src": "assets/storefronts/branch-078.webp",
+        "width": 1280,
+        "height": 891
+      }
     },
     {
       "id": "branch-079",
@@ -1251,7 +1526,12 @@
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 36.6535278,
-      "longitude": 51.4215556
+      "longitude": 51.4215556,
+      "photo": {
+        "src": "assets/storefronts/branch-079.webp",
+        "width": 649,
+        "height": 1440
+      }
     },
     {
       "id": "branch-080",
@@ -1265,7 +1545,12 @@
       "phones": [
         "03491090392"
       ],
-      "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00"
+      "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+      "photo": {
+        "src": "assets/storefronts/branch-080.webp",
+        "width": 1436,
+        "height": 820
+      }
     },
     {
       "id": "branch-081",
@@ -1297,7 +1582,12 @@
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 36.828835,
-      "longitude": 50.864819
+      "longitude": 50.864819,
+      "photo": {
+        "src": "assets/storefronts/branch-082.webp",
+        "width": 1440,
+        "height": 664
+      }
     },
     {
       "id": "branch-083",
@@ -1313,7 +1603,12 @@
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 36.6493698,
-      "longitude": 53.2969841
+      "longitude": 53.2969841,
+      "photo": {
+        "src": "assets/storefronts/branch-083.webp",
+        "width": 1231,
+        "height": 936
+      }
     },
     {
       "id": "branch-084",
@@ -1345,7 +1640,12 @@
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 35.026009,
-      "longitude": 50.366527
+      "longitude": 50.366527,
+      "photo": {
+        "src": "assets/storefronts/branch-085.webp",
+        "width": 960,
+        "height": 1280
+      }
     },
     {
       "id": "branch-086",
@@ -1450,7 +1750,12 @@
       ],
       "hours": "شنبه تا چهارشنبه 7:00 الی 14:00 - 16:00 الی 18:00",
       "latitude": 35.324269,
-      "longitude": 51.644105
+      "longitude": 51.644105,
+      "photo": {
+        "src": "assets/storefronts/branch-093.webp",
+        "width": 664,
+        "height": 1440
+      }
     },
     {
       "id": "branch-094",
@@ -1478,7 +1783,12 @@
       "address": "",
       "phone": "",
       "phones": [],
-      "hours": ""
+      "hours": "",
+      "photo": {
+        "src": "assets/storefronts/branch-095.webp",
+        "width": 1440,
+        "height": 810
+      }
     }
   ]
 }

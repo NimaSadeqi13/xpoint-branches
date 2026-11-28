@@ -1,0 +1,504 @@
+{
+  "source": "User-provided storefront archive",
+  "driveFileId": "1G9-r4MirPSH2ZO28k7tfd0MmDz1LYwgl",
+  "onePhotoPerBranch": true,
+  "count": 62,
+  "photos": [
+    {
+      "branchId": "branch-001",
+      "branchName": "فروشگاه لاهیجان",
+      "category": "xpoint",
+      "sourceFile": "لاهیجان 1.jpg",
+      "photo": "assets/storefronts/branch-001.webp",
+      "sourceSHA256": "c0bd71dd1f03003d7452012095fb923900bd2d32e0eda60b68c343ce56e29927"
+    },
+    {
+      "branchId": "branch-002",
+      "branchName": "فروشگاه تبریز",
+      "category": "xpoint",
+      "sourceFile": "شعبه ایکس پوینت تبریز-p1-1.png",
+      "photo": "assets/storefronts/branch-002.webp",
+      "sourceSHA256": "d5945cb292e636192a7369b77ccac8fcde91e845d65b21f7d49ef68949fdf828"
+    },
+    {
+      "branchId": "branch-003",
+      "branchName": "فروشگاه شهرری",
+      "category": "xpoint",
+      "sourceFile": "شهر ری.jpg",
+      "photo": "assets/storefronts/branch-003.webp",
+      "sourceSHA256": "7fc67c6812fc56d8337f10eb237b214968cbda22947116d4df9dc1173482c091"
+    },
+    {
+      "branchId": "branch-004",
+      "branchName": "فروشگاه هشتگرد",
+      "category": "xpoint",
+      "sourceFile": "هشتگرد.jpg",
+      "photo": "assets/storefronts/branch-004.webp",
+      "sourceSHA256": "b3d8bd857b35aeeb5832f6557a289416a835ac31c0695d6bf4cb61bff4018cd0"
+    },
+    {
+      "branchId": "branch-006",
+      "branchName": "فروشگاه بندرعباس",
+      "category": "xpoint",
+      "sourceFile": "بندرعباس0.jpg",
+      "photo": "assets/storefronts/branch-006.webp",
+      "sourceSHA256": "66b011585c1f29e5857c6909338dce791ff32a4ee5c1fdc1c91425fae410e022"
+    },
+    {
+      "branchId": "branch-007",
+      "branchName": "فروشگاه بندر انزلی",
+      "category": "xpoint",
+      "sourceFile": "عکس از نمای بیرونی فروشگاه بندرانزلی.jpg",
+      "photo": "assets/storefronts/branch-007.webp",
+      "sourceSHA256": "c70a47213c1f95dbf218ddbb8bd8b775652ec9ec2f8c10444850ec6086f6b857"
+    },
+    {
+      "branchId": "branch-008",
+      "branchName": "فروشگاه اصفهان",
+      "category": "xpoint",
+      "sourceFile": "اصفهان1.jpg",
+      "photo": "assets/storefronts/branch-008.webp",
+      "sourceSHA256": "82a454dc59252e76dfe5d2e2c9ad33092584395d479f7d7dcb8403c030c02557"
+    },
+    {
+      "branchId": "branch-009",
+      "branchName": "فروشگاه لنگرود",
+      "category": "xpoint",
+      "sourceFile": "لنگرد.jpg",
+      "photo": "assets/storefronts/branch-009.webp",
+      "sourceSHA256": "bfd2a4ce0c278a811aceeea1b46d22a6e9e088bac52016c115936b5d48622061"
+    },
+    {
+      "branchId": "branch-010",
+      "branchName": "فروشگاه نور",
+      "category": "xpoint",
+      "sourceFile": "نور.jpg",
+      "photo": "assets/storefronts/branch-010.webp",
+      "sourceSHA256": "7fa53244a590d016b275ce0fa41638d2d205999889599871487ef76c5d479712"
+    },
+    {
+      "branchId": "branch-011",
+      "branchName": "فروشگاه دزفول",
+      "category": "xvision",
+      "sourceFile": "دزفول.heic",
+      "photo": "assets/storefronts/branch-011.webp",
+      "sourceSHA256": "b0617dfbf1ca93b6b32698757ca5434cbdc4e677dfce5aad4bd992646ac4a30e"
+    },
+    {
+      "branchId": "branch-013",
+      "branchName": "فروشگاه رشت",
+      "category": "maadiran",
+      "sourceFile": "رشت مطهری.jpg",
+      "photo": "assets/storefronts/branch-013.webp",
+      "sourceSHA256": "abe23ea431f1a1a6735fb6d3dbff72e2565906c78a5924baf03dc1b1ac44604a"
+    },
+    {
+      "branchId": "branch-014",
+      "branchName": "فروشگاه مشهد",
+      "category": "maadiran",
+      "sourceFile": "مشهد.jpg",
+      "photo": "assets/storefronts/branch-014.webp",
+      "sourceSHA256": "c9f8f72253c0a2fe53cc6cd29b643d6b643442e5869ac70fddd3a96a34b40ac3"
+    },
+    {
+      "branchId": "branch-015",
+      "branchName": "فروشگاه همدان",
+      "category": "maadiran",
+      "sourceFile": "همدان.png",
+      "photo": "assets/storefronts/branch-015.webp",
+      "sourceSHA256": "9d08c8a8915dff79a83af5754cc6a84a0e8d32988f487065a214b1199800fd79"
+    },
+    {
+      "branchId": "branch-016",
+      "branchName": "فروشگاه اردبیل",
+      "category": "maadiran",
+      "sourceFile": "اردبیل.jpg",
+      "photo": "assets/storefronts/branch-016.webp",
+      "sourceSHA256": "1f0eada7aaed0e0dd33b4717c9af8dee36238aace2f159be5d02955668eed6a3"
+    },
+    {
+      "branchId": "branch-018",
+      "branchName": "فروشگاه اهواز",
+      "category": "maadiran",
+      "sourceFile": "اهواز2.jpg",
+      "photo": "assets/storefronts/branch-018.webp",
+      "sourceSHA256": "5877c1fa7fd1c08f91f762baaa5991db25589da84560372d471c65fd0e9f847e"
+    },
+    {
+      "branchId": "branch-019",
+      "branchName": "فروشگاه فردیس",
+      "category": "maadiran",
+      "sourceFile": "فروشگاه فردیس 2.jfif",
+      "photo": "assets/storefronts/branch-019.webp",
+      "sourceSHA256": "f2832c5d2ad16ef229da3af22868c08b6db2d1561842ab8453f421a62e24c975"
+    },
+    {
+      "branchId": "branch-020",
+      "branchName": "فروشگاه نوشهر",
+      "category": "maadiran",
+      "sourceFile": "نوشهر.jfif",
+      "photo": "assets/storefronts/branch-020.webp",
+      "sourceSHA256": "29901216d802a88437dba4627883416056fae3ef5e0939c860e9b8b6dcc83f39"
+    },
+    {
+      "branchId": "branch-021",
+      "branchName": "فروشگاه شهریار",
+      "category": "maadiran",
+      "sourceFile": "فروشگاه شهریار.jpg",
+      "photo": "assets/storefronts/branch-021.webp",
+      "sourceSHA256": "e7a0b5eb253e6411aca69cebaaef85b5faa31e5b65737646d6244c1bab48b9ad"
+    },
+    {
+      "branchId": "branch-024",
+      "branchName": "فروشگاه یزد",
+      "category": "maadiran",
+      "sourceFile": "فروشگاه مرکزی یزد.jpeg",
+      "photo": "assets/storefronts/branch-024.webp",
+      "sourceSHA256": "2575932256adeab7e991ae0a71239f11f61845c0db806fa413173efa0cd8f0f5"
+    },
+    {
+      "branchId": "branch-025",
+      "branchName": "فروشگاه صادقیه",
+      "category": "maadiran",
+      "sourceFile": "صادقیه.jpg",
+      "photo": "assets/storefronts/branch-025.webp",
+      "sourceSHA256": "a344348fd7f92253e05d405524f09067c9001409d5afbe691cc7f32f49cdf8c9"
+    },
+    {
+      "branchId": "branch-028",
+      "branchName": "فروشگاه گنبد کاووس",
+      "category": "maadiran",
+      "sourceFile": "گنبد کاووس.jpg",
+      "photo": "assets/storefronts/branch-028.webp",
+      "sourceSHA256": "497e2644d7317e38e94b511aa996ce95f0fcab6744e1418b3af97e92773cec51"
+    },
+    {
+      "branchId": "branch-029",
+      "branchName": "فروشگاه کرج",
+      "category": "xpoint",
+      "sourceFile": "ایکس پوینت گوهردشت.jpg",
+      "photo": "assets/storefronts/branch-029.webp",
+      "sourceSHA256": "07679336c6d0dca9839fc5199059b76e7cfc48ff0ceae2036523af3f33e9b7d7"
+    },
+    {
+      "branchId": "branch-030",
+      "branchName": "فروشگاه کرمان",
+      "category": "maadiran",
+      "sourceFile": "تابلو یردرب کرمان.jpg",
+      "photo": "assets/storefronts/branch-030.webp",
+      "sourceSHA256": "ea26a9fb5e379bc8d428a09650443ff75eea6f5702fd41da5b3033421bec24cc"
+    },
+    {
+      "branchId": "branch-031",
+      "branchName": "فروشگاه مراغه",
+      "category": "maadiran",
+      "sourceFile": "مراغه.jpg",
+      "photo": "assets/storefronts/branch-031.webp",
+      "sourceSHA256": "df977cbc18e6a637b5902de40189bad128d55b1c1709eaad112aae0ea69ca253"
+    },
+    {
+      "branchId": "branch-032",
+      "branchName": "فروشگاه ارومیه",
+      "category": "maadiran",
+      "sourceFile": "ارومیه.jpg",
+      "photo": "assets/storefronts/branch-032.webp",
+      "sourceSHA256": "c0cac050e593fbed3eee24d9af209716710816e88f4ec6403132ba02329ae6d0"
+    },
+    {
+      "branchId": "branch-034",
+      "branchName": "کانون علی آباد کتول",
+      "category": "kanon",
+      "sourceFile": "کانون علی آباد.jpeg",
+      "photo": "assets/storefronts/branch-034.webp",
+      "sourceSHA256": "394a82d48d226d13866f2fc1f7e93e3a83bae8e814667f99ba060161af2ac8ec"
+    },
+    {
+      "branchId": "branch-037",
+      "branchName": "فروشگاه قزوین",
+      "category": "maadiran",
+      "sourceFile": "فروشگاه مرکزی  قزوین.jpg",
+      "photo": "assets/storefronts/branch-037.webp",
+      "sourceSHA256": "507f83202ff0719ccbe85709048e6ee00f6234f667a4cef0231e2e1e16520321"
+    },
+    {
+      "branchId": "branch-038",
+      "branchName": "فروشگاه ایلام",
+      "category": "maadiran",
+      "sourceFile": "فروشگاه ایلام-p1-1.png",
+      "photo": "assets/storefronts/branch-038.webp",
+      "sourceSHA256": "cae01b023f0dfc5663af959aa6a33cf94e2d0997090a2fd87c2deb20f0003b22"
+    },
+    {
+      "branchId": "branch-039",
+      "branchName": "فروشگاه کرمانشاه",
+      "category": "maadiran",
+      "sourceFile": "کرمانشاه.jpeg",
+      "photo": "assets/storefronts/branch-039.webp",
+      "sourceSHA256": "388a3162837b3eebd91175bc5bfb0dea6a59ff55570bab0d7b0849f238f95816"
+    },
+    {
+      "branchId": "branch-040",
+      "branchName": "کانون سیرجان",
+      "category": "kanon",
+      "sourceFile": "کانون سیرجان.jpg",
+      "photo": "assets/storefronts/branch-040.webp",
+      "sourceSHA256": "fadebe104d4fe083ab826a74befa9ea3f0be8ff970685f4d2f8868a7338ed1f9"
+    },
+    {
+      "branchId": "branch-042",
+      "branchName": "کانون اصفهان",
+      "category": "kanon",
+      "sourceFile": "کانون اصفهان.jpg",
+      "photo": "assets/storefronts/branch-042.webp",
+      "sourceSHA256": "00aeab1971b54b68f024f24c5f21582a01ddf2bd3f035c99fbe2cf08b192bea2"
+    },
+    {
+      "branchId": "branch-045",
+      "branchName": "فروشگاه تربت حیدریه",
+      "category": "maadiran",
+      "sourceFile": "تربت.jpg",
+      "photo": "assets/storefronts/branch-045.webp",
+      "sourceSHA256": "191777fcb71a44d31a891dc2ff590f226d365eec671359fdcb560e7edb5ef15c"
+    },
+    {
+      "branchId": "branch-046",
+      "branchName": "فروشگاه سبزوار",
+      "category": "maadiran",
+      "sourceFile": "سبزوار.jpeg",
+      "photo": "assets/storefronts/branch-046.webp",
+      "sourceSHA256": "18656e9194ff4abf91724cbd67df9ce66c026b66e4bf82a54753831ddec32402"
+    },
+    {
+      "branchId": "branch-047",
+      "branchName": "فروشگاه بابلسر",
+      "category": "maadiran",
+      "sourceFile": "بابلسر.jpg",
+      "photo": "assets/storefronts/branch-047.webp",
+      "sourceSHA256": "b3d2873785d47a4abf6035cdf26367deab84ed8b4b8da88ad8fc2d0a57666149"
+    },
+    {
+      "branchId": "branch-048",
+      "branchName": "فروشگاه گرگان",
+      "category": "maadiran",
+      "sourceFile": "گرگان.jpeg",
+      "photo": "assets/storefronts/branch-048.webp",
+      "sourceSHA256": "1b9c1620cec51fd067d937e85d0e35a3ceb9d8e1575ba56aa6ee4122d6722744"
+    },
+    {
+      "branchId": "branch-051",
+      "branchName": "کانون ساری",
+      "category": "kanon",
+      "sourceFile": "کانون ساری.jpg",
+      "photo": "assets/storefronts/branch-051.webp",
+      "sourceSHA256": "a679e20f3f27f84a631ea2a9305491238e362f1182c724b540015dbafcbbe92a"
+    },
+    {
+      "branchId": "branch-052",
+      "branchName": "فروشگاه مرند",
+      "category": "maadiran",
+      "sourceFile": "مرند.jpg",
+      "photo": "assets/storefronts/branch-052.webp",
+      "sourceSHA256": "386134f52245dabcba52ba6fadac97d0fc12e4eeffa25a05f862f70185948370"
+    },
+    {
+      "branchId": "branch-054",
+      "branchName": "فروشگاه میبد",
+      "category": "maadiran",
+      "sourceFile": "میبد.jpg",
+      "photo": "assets/storefronts/branch-054.webp",
+      "sourceSHA256": "9678eb8715ef74d128a9fe80c3273eb708f6a618a9811918d92dcb1fd4c5f931"
+    },
+    {
+      "branchId": "branch-055",
+      "branchName": "فروشگاه کاشان",
+      "category": "xpoint",
+      "sourceFile": "کاشان.jpg",
+      "photo": "assets/storefronts/branch-055.webp",
+      "sourceSHA256": "521d9082ccaf7ac3016b1875e8c388ede24ab2e6559638b3f3da2d97e4d1522b"
+    },
+    {
+      "branchId": "branch-056",
+      "branchName": "فروشگاه کازرون",
+      "category": "xpoint",
+      "sourceFile": "کازرون.jpg",
+      "photo": "assets/storefronts/branch-056.webp",
+      "sourceSHA256": "ca81af97ce55da85c74becc324baa55d24bcc75919cd009996ae5df33b0bc085"
+    },
+    {
+      "branchId": "branch-057",
+      "branchName": "فروشگاه مسجد سلیمان",
+      "category": "maadiran",
+      "sourceFile": "مسجد سلیمان.jpg",
+      "photo": "assets/storefronts/branch-057.webp",
+      "sourceSHA256": "0e45c98d286dd1a18fde724ed87ac604ab903f5231bb58567d3dc00c27f763cd"
+    },
+    {
+      "branchId": "branch-059",
+      "branchName": "فروشگاه پارس آباد",
+      "category": "maadiran",
+      "sourceFile": "پارس آباد.jpg",
+      "photo": "assets/storefronts/branch-059.webp",
+      "sourceSHA256": "b87ab099cd3dff7ab9f6232e7bd2880cef2504b9bf1bd7b0d2ca0034af1def61"
+    },
+    {
+      "branchId": "branch-060",
+      "branchName": "فروشگاه کلاله",
+      "category": "maadiran",
+      "sourceFile": "کلاله.jpg",
+      "photo": "assets/storefronts/branch-060.webp",
+      "sourceSHA256": "37f2a794ae9180530975fd03bdb925c2d742e7ece78abd97d7707b29b937f988"
+    },
+    {
+      "branchId": "branch-061",
+      "branchName": "فروشگاه قائمشهر",
+      "category": "maadiran",
+      "sourceFile": "شعبه قائمشهر (1).jpg",
+      "photo": "assets/storefronts/branch-061.webp",
+      "sourceSHA256": "e83a5be13b9798c763e85bfab3c11c6990f545cfd4ffe55248fa8d957b8759f1"
+    },
+    {
+      "branchId": "branch-062",
+      "branchName": "فروشگاه بابل",
+      "category": "maadiran",
+      "sourceFile": "بابل.jpg",
+      "photo": "assets/storefronts/branch-062.webp",
+      "sourceSHA256": "fad8f1c36224803b21350c01c9d18a9a6212643c8bcad8646d51f3150a9e135c"
+    },
+    {
+      "branchId": "branch-063",
+      "branchName": "فروشگاه آزادشهر",
+      "category": "maadiran",
+      "sourceFile": "آزاد شهر.jpeg",
+      "photo": "assets/storefronts/branch-063.webp",
+      "sourceSHA256": "f87325aba3213bdb6b7aa0668f99a8e7ec87a0437c34361421ae1884beefcbdb"
+    },
+    {
+      "branchId": "branch-065",
+      "branchName": "فروشگاه الوند",
+      "category": "maadiran",
+      "sourceFile": "الوند.jpg",
+      "photo": "assets/storefronts/branch-065.webp",
+      "sourceSHA256": "b512cc381dc949c52bffc1452dcbd34e3dec76dc1e43230c0f7428226f520ee4"
+    },
+    {
+      "branchId": "branch-066",
+      "branchName": "فروشگاه بجنورد",
+      "category": "maadiran",
+      "sourceFile": "بجنورد.jpg",
+      "photo": "assets/storefronts/branch-066.webp",
+      "sourceSHA256": "719696ca86bd67b8be80d33925ca339dee6d20f61d77f60b94c00d9c93c74fb3"
+    },
+    {
+      "branchId": "branch-067",
+      "branchName": "فروشگاه رشت (شعبه دوم)",
+      "category": "maadiran",
+      "sourceFile": "رشت تصویر دوم.jpg",
+      "photo": "assets/storefronts/branch-067.webp",
+      "sourceSHA256": "b7ee44509f96ab684a362c9d40c1f84908180a3cd3b17009904a4bff3e9a6a3e"
+    },
+    {
+      "branchId": "branch-068",
+      "branchName": "فروشگاه بیرجند",
+      "category": "maadiran",
+      "sourceFile": "بیرجند.jpg",
+      "photo": "assets/storefronts/branch-068.webp",
+      "sourceSHA256": "b1f789c55cbbcc7a07d91e823ad79f0de7756f1d0cb04203abf602b85f43fe7b"
+    },
+    {
+      "branchId": "branch-070",
+      "branchName": "فروشگاه رامسر",
+      "category": "maadiran",
+      "sourceFile": "فروشگاه رامسر.jpg",
+      "photo": "assets/storefronts/branch-070.webp",
+      "sourceSHA256": "e3877874f228301354baac20403e28913202a5b6676d583eb95f2632abd38075"
+    },
+    {
+      "branchId": "branch-072",
+      "branchName": "فروشگاه شاهرود",
+      "category": "maadiran",
+      "sourceFile": "شاهرود 2.jfif",
+      "photo": "assets/storefronts/branch-072.webp",
+      "sourceSHA256": "a83d263574317d39a696d9530214c4975eb97cada312b422987ec23ac85e2b2b"
+    },
+    {
+      "branchId": "branch-073",
+      "branchName": "فروشگاه تالش",
+      "category": "maadiran",
+      "sourceFile": "تالش.jpg",
+      "photo": "assets/storefronts/branch-073.webp",
+      "sourceSHA256": "3581c69f3d01ed439fd4d59a780b16d54694f7dd1587f6d1dda2f407e7e72739"
+    },
+    {
+      "branchId": "branch-076",
+      "branchName": "فروشگاه میانه",
+      "category": "maadiran",
+      "sourceFile": "میانه.jpg",
+      "photo": "assets/storefronts/branch-076.webp",
+      "sourceSHA256": "8f814a0d047be2afbc8c96b34931de07e3c478415f0c773b6039c647aafe27ef"
+    },
+    {
+      "branchId": "branch-078",
+      "branchName": "فروشگاه نیشابور",
+      "category": "maadiran",
+      "sourceFile": "نیشابور.jpg",
+      "photo": "assets/storefronts/branch-078.webp",
+      "sourceSHA256": "9d52f61d9e0fc3b73d07d2a8951a16ddcfae2aace9de0ee9e24624d369be3420"
+    },
+    {
+      "branchId": "branch-079",
+      "branchName": "فروشگاه چالوس",
+      "category": "maadiran",
+      "sourceFile": "عکس سر درب فروشگاه چالوس.jpg",
+      "photo": "assets/storefronts/branch-079.webp",
+      "sourceSHA256": "14eb9bfacdb084870a61a3998af44ff5e578081b2e8b3adfd84f035bd3f18fff"
+    },
+    {
+      "branchId": "branch-080",
+      "branchName": "فروشگاه رفسنجان",
+      "category": "maadiran",
+      "sourceFile": "رفسنجان.jpg",
+      "photo": "assets/storefronts/branch-080.webp",
+      "sourceSHA256": "5945ee72e2a1d51ab02f4e93a0994f82e67e275058768fcfe6006c55453d02db"
+    },
+    {
+      "branchId": "branch-082",
+      "branchName": "فروشگاه تنکابن",
+      "category": "maadiran",
+      "sourceFile": "تنکابن.jpg",
+      "photo": "assets/storefronts/branch-082.webp",
+      "sourceSHA256": "b874ce6584edc76f6f61014a3e0da1046e84468f7a2b0e9d480cf2872cf18066"
+    },
+    {
+      "branchId": "branch-083",
+      "branchName": "فروشگاه نکا",
+      "category": "maadiran",
+      "sourceFile": "نکا.jpg",
+      "photo": "assets/storefronts/branch-083.webp",
+      "sourceSHA256": "625194f6b88ff6c7c892b0b83a5c8bdbe17b0077e6f9b8a9a071f23951c454a9"
+    },
+    {
+      "branchId": "branch-085",
+      "branchName": "فروشگاه ساوه",
+      "category": "maadiran",
+      "sourceFile": "ساوه 1.jpg",
+      "photo": "assets/storefronts/branch-085.webp",
+      "sourceSHA256": "079ecfc836535f16bc996be59aaf3dcfb6cb66f18be76830a6bcfeb5a61b0a2d"
+    },
+    {
+      "branchId": "branch-093",
+      "branchName": "فروشگاه ورامین",
+      "category": "maadiran",
+      "sourceFile": "ورامین.jpg",
+      "photo": "assets/storefronts/branch-093.webp",
+      "sourceSHA256": "b0c2ddaa35b80e23814bfe7a9146ed476c279217353187fad83ac5344ed8bf16"
+    },
+    {
+      "branchId": "branch-095",
+      "branchName": "فروشگاه یزد",
+      "category": "xvision",
+      "sourceFile": "فروشگاه ایکس ویژن شاپ یزد.jpeg",
+      "photo": "assets/storefronts/branch-095.webp",
+      "sourceSHA256": "feb62f2d1ddbc8a37991b0eb1a6a2905aa8068a1704d72b86213542419b0887c"
+    }
+  ]
+}

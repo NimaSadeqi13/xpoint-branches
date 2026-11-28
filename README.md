@@ -40,6 +40,12 @@ Add verified records in this shape (values below describe fields, not a real bra
 
 Province names must exactly match `assets/provinces.json`. Use numeric coordinates. Missing coordinates suppress the pin and directions link; missing phone suppresses the call action. Search includes province, city, branch name, and address. Treat coordinates and phone numbers as verified operational data before publication.
 
+## Storefront photos
+
+62 branches have one reviewed photo each from the user-supplied `تصاویر شعب.rar` Drive archive. Duplicate views of the same branch were reduced to one selection; Rasht's two separate shops and Yazd's Maadiran/X.Vision stores remain distinct. The 33 branches without an identifiable supplied image keep their contact/address cards without a fabricated photo.
+
+Photos live under `assets/storefronts/branch-NNN.webp`; `manifest.json` records the reviewed source filename and hash for each stable branch ID. PDFs supplied for Tabriz and Ilam contribute one embedded storefront photo each; Dezful's HEIC is converted for browser support. Orientation is retained, pixel dimensions are reduced only for delivery, and no visual content is generated or altered. Images load lazily, fit without cropping the storefront, and open individually at larger size. `branches.json` stores one optional `photo` object with relative `src`, `width`, and `height`.
+
 ## Site integration
 
 Copy this folder into `/branches/` on the main site; all assets and requests are relative. Alternatively embed its public URL in an iframe with an accessible title. Integrating directly into another application only requires porting index.html, style.css, app.js and the two JSON files. The branch data contract stays the same.

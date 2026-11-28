@@ -88,6 +88,12 @@ function renderResults() {
 function branchCard(b){
   const card=node('article',{class:'branch-card'+(activeBranch===b.id?' active':''),id:'branch-'+b.id,tabindex:'0'});
   const meta=node('div',{class:'branch-meta'});meta.append(node('span',{class:'branch-city'},b.city||b.province),node('span',{class:'category-badge'},categories[b.category]||'شعبه'));card.append(meta,node('h3',{},b.name));
+  if(b.photo&&/^branch-\d{3}$/.test(b.id)&&b.photo.src==='assets/storefronts/'+b.id+'.webp'){
+    const photoLink=node('a',{class:'branch-photo',href:b.photo.src,target:'_blank',rel:'noopener noreferrer','aria-label':'مشاهده عکس سردرب '+b.name});
+    const image=node('img',{src:b.photo.src,alt:'سردرب '+b.name+'، '+b.city,loading:'lazy',decoding:'async',width:b.photo.width,height:b.photo.height});
+    image.addEventListener('error',()=>photoLink.remove(),{once:true});
+    photoLink.append(image,node('span',{'aria-hidden':'true'},'مشاهده عکس ↗'));card.append(photoLink);
+  }
   if(b.status&&b.status!=='فعال')card.append(node('p',{class:'branch-status'},b.status+' · پیش از مراجعه تماس بگیرید'));
   card.append(node('p',{},b.address||'آدرس در حال تکمیل است'));
   if(b.hours)card.append(node('p',{},'ساعت کاری: '+b.hours));
