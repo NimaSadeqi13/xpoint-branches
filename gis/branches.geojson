@@ -104,10 +104,17 @@
         "address": "حسن کیف بلوار امام خمینی رو به روی مسجد جامع ، پلاک183 فروشگاه مرکزی ایکس پوینت",
         "phone": "011-42726120",
         "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
-        "neshanUrl": "",
-        "location_status": "missing_exact_coordinate"
+        "neshanUrl": "https://neshan.org/maps/routing/car/destination/36.5062883,51.161627499999994",
+        "location_status": "user_provided_map_pin",
+        "locationCode": ""
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.161627499999994,
+          36.5062883
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -122,10 +129,17 @@
         "address": "خیابان مصطفی خمینی بین چهارراه اتوبوسرانی و صادقیه فروشگاه مرکزی ایکس پوینت",
         "phone": "076-91010260",
         "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
-        "neshanUrl": "",
-        "location_status": "missing_exact_coordinate"
+        "neshanUrl": "https://neshan.org/maps/routing/car/destination/27.202913,56.3396009",
+        "location_status": "user_provided_map_pin",
+        "locationCode": ""
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.3396009,
+          27.202913
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -1305,10 +1319,17 @@
         "address": "چهارراه انقلاب، ساختمان دارنگ، فروشگاه ایکس پوینت",
         "phone": "071-91550071",
         "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
-        "neshanUrl": "https://neshan.org/maps/places/rbg41HWxaR8H#c35.689-51.389-11z-0p",
-        "location_status": "missing_exact_coordinate"
+        "neshanUrl": "https://neshan.org/maps/routing/car/destination/29.6180375,51.660171875",
+        "location_status": "provided_plus_code_center",
+        "locationCode": "7HXHJM96+637"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.660171875,
+          29.6180375
+        ]
+      }
     },
     {
       "type": "Feature",

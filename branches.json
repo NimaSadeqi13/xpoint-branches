@@ -102,7 +102,11 @@
         "src": "assets/storefronts/branch-005.webp",
         "width": 960,
         "height": 1280
-      }
+      },
+      "latitude": 36.5062883,
+      "longitude": 51.161627499999994,
+      "locationMethod": "user_provided_map_pin",
+      "neshanUrl": "https://neshan.org/maps/routing/car/destination/36.5062883,51.161627499999994"
     },
     {
       "id": "branch-006",
@@ -121,7 +125,11 @@
         "src": "assets/storefronts/branch-006.webp",
         "width": 1018,
         "height": 975
-      }
+      },
+      "latitude": 27.202913,
+      "longitude": 56.3396009,
+      "locationMethod": "user_provided_map_pin",
+      "neshanUrl": "https://neshan.org/maps/routing/car/destination/27.202913,56.3396009"
     },
     {
       "id": "branch-007",
@@ -1102,12 +1110,16 @@
         "07191550071"
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
-      "neshanUrl": "https://neshan.org/maps/places/rbg41HWxaR8H#c35.689-51.389-11z-0p",
+      "neshanUrl": "https://neshan.org/maps/routing/car/destination/29.6180375,51.660171875",
       "photo": {
         "src": "assets/storefronts/branch-056.webp",
         "width": 960,
         "height": 1280
-      }
+      },
+      "latitude": 29.6180375,
+      "longitude": 51.660171875,
+      "locationMethod": "provided_plus_code_center",
+      "locationCode": "7HXHJM96+637"
     },
     {
       "id": "branch-057",
