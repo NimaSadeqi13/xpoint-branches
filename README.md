@@ -73,3 +73,5 @@ Province fills stay neutral gray in overview, hover, and selected views. X.point
 The Karaj/Gohardasht X.point pin was provided directly by the user: 35.8525586, 50.976946999999996, matching West 9th Street. Its previous opaque Neshan place link is replaced with a destination-coordinate Neshan route. Existing photo, address and contact details remain unchanged.
 
 User-supplied pins add Kelardasht and Bandar Abbas. The Kazerun short Plus Code JM96+637 is recovered within Kazerun as 7HXHJM96+637; its area center is retained with provided_plus_code_center provenance. ShahreRey uses the corrected user-supplied pin 35.603271,51.429071; earlier mislabeled duplicate links were not used.
+
+Eight Kanon records with blank source phone numbers use the user-supplied shared contact 021-41703000. Existing nonblank phone values are preserved.
