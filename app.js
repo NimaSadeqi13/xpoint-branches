@@ -116,7 +116,7 @@ async function init(){
   try{
     const response=await fetch('assets/provinces.json');if(!response.ok)throw Error('Map request failed');const data=await response.json();features=data.features;
     if(!Array.isArray(features)||features.length!==31)throw Error('Invalid province map');fullBounds=bounds(features);
-    try{const response=await fetch('branches.json',{cache:'no-store'});if(!response.ok)throw Error('Branches request failed');const data=await response.json();if(!Array.isArray(data.branches))throw Error('Invalid branch data');branches=data.branches.filter(b=>b&&typeof b.id==='string'&&typeof b.name==='string'&&features.some(f=>provinceName(f)===b.province))}catch{dataFailed=true}
+    try{const response=await fetch('https://xpoint-branch-admin.nimasadeghi23.workers.dev/api/branches',{cache:'no-store'});if(!response.ok)throw Error('Branches request failed');const data=await response.json();if(!Array.isArray(data.branches))throw Error('Invalid branch data');branches=data.branches.filter(b=>b&&typeof b.id==='string'&&typeof b.name==='string'&&features.some(f=>provinceName(f)===b.province))}catch{dataFailed=true}
     features.map(provinceName).sort((a,b)=>a.localeCompare(b,'fa')).forEach(name=>$('province-select').append(node('option',{value:name},name)));
     $('map-loading').hidden=true;readHash();
   }catch{

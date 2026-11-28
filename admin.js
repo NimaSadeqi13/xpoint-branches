@@ -1,6 +1,6 @@
-import {categories,normalize,parsePin,makeBranch,changesFrom} from './admin-data.js?v=22';
+import {categories,normalize,parsePin,makeBranch,changesFrom} from './admin-data.js?v=24';
 const $=id=>document.getElementById(id),clone=value=>structuredClone(value),fa=value=>new Intl.NumberFormat('fa-IR').format(value);
-const endpoint='https://api.github.com/repos/XpointShops/Map/contents/branches.json';
+const endpoint='https://xpoint-branch-admin.nimasadeghi23.workers.dev';
 let token='',base=null,draft=null,sha='',features=[],busy=false,editingId='',confirmAction=null;
 function message(text,type=''){ $('message').textContent=text;$('message').className='admin-message '+type; }
 function dirty(){return base&&draft?changesFrom(base,draft):[];}
@@ -29,39 +29,32 @@ $('confirm-cancel').addEventListener('click',()=>{$('confirmation').close();conf
 $('confirmation').addEventListener('cancel',()=>{confirmAction=null;});
 $('confirm-yes').addEventListener('click',()=>{const action=confirmAction;confirmAction=null;$('confirmation').close();action?.();});
 function validateData(data){if(!data||!Array.isArray(data.branches)||data.branches.some(b=>!b||typeof b.id!=='string'||typeof b.name!=='string')||new Set(data.branches.map(b=>b.id)).size!==data.branches.length)throw Error('ساختار اطلاعات شعب معتبر نیست.');return data;}
-function encode(value){return btoa(Array.from(new TextEncoder().encode(value),b=>String.fromCharCode(b)).join(''));}
-function decode(value){return new TextDecoder().decode(Uint8Array.from(atob(value.replace(/\s/g,'')),c=>c.charCodeAt(0)));}
-async function api(url,options={}){
- let response;try{response=await fetch(url,{...options,cache:'no-store',redirect:'error',headers:{Accept:'application/vnd.github+json','X-GitHub-Api-Version':'2026-03-10',...(token?{Authorization:'Bearer '+token}:{}),...(options.body?{'Content-Type':'application/json'}:{})}});}catch{throw Error('ارتباط با گیت‌هاب برقرار نشد. اتصال اینترنت را بررسی کنید و دوباره تلاش کنید.');}
- if(!response.ok){
-  if(response.status===401){token='';connection();throw Error('کلید معتبر نیست یا منقضی شده است. دوباره وارد مدیریت شوید.');}
-  if(response.status===403||response.status===404)throw Error('دسترسی به مخزن تأیید نشد. دسترسی کلید به XpointShops/Map و مجوز Contents را بررسی کنید.');
-  if(response.status===409)throw Error('اطلاعات سایت هم‌زمان تغییر کرده است. تغییرات شما حفظ شده؛ برای ادامه، نسخه جدید را دریافت و تغییرات را دوباره ثبت کنید.');
-  if(response.status===422)throw Error('گیت‌هاب انتشار را نپذیرفت. مجوز نوشتن و محدودیت‌های شاخه main را بررسی کنید.');
-  throw Error('دریافت یا ثبت اطلاعات انجام نشد. دوباره تلاش کنید.');
- }return response.json();
+async function api(route,options={}){
+ let response;try{response=await fetch(endpoint+route,{...options,cache:'no-store',headers:{...(token?{Authorization:'Bearer '+token}:{}),...(options.body?{'Content-Type':'application/json'}:{})}});}catch{throw Error('ارتباط با سرور برقرار نشد. اتصال اینترنت را بررسی کنید و دوباره تلاش کنید.');}
+ let result;try{result=await response.json();}catch{throw Error('پاسخ سرور دریافت نشد؛ دوباره تلاش کنید.');}
+ if(!response.ok){if(response.status===401){token='';connection();}throw Error(result.error||'ذخیره یا دریافت اطلاعات انجام نشد.');}return result;
 }
-async function repoFile(){const file=await api(endpoint+'?ref=main');if(file.encoding!=='base64'||!file.sha)throw Error('فایل اطلاعات شعب دریافت نشد.');return {data:validateData(JSON.parse(decode(file.content))),sha:file.sha};}
-function connection(){const connected=!!token;$('connect-form').hidden=connected;$('disconnect').hidden=!connected;$('connection-state').textContent=connected?'متصل به مخزن شعب؛ انتشار تغییرات در دسترس است.':'برای انتشار تغییرات، به حساب گیت‌هاب متصل شوید.';updateButtons();}
+async function serverFile(){const result=await api('/api/data');return {data:validateData(result.data),sha:result.sha};}
+function connection(){const connected=!!token;$('connect-form').hidden=connected;$('disconnect').hidden=!connected;$('connection-state').textContent=connected?'وارد حساب مدیریت شدید؛ می‌توانید اطلاعات شعب را تغییر دهید.':'برای مدیریت شعب، وارد حساب خود شوید.';updateButtons();}
 async function load(connected=false){
  busy=true;updateButtons();
  try{
   if(!features.length){const response=await fetch('assets/provinces.json');if(!response.ok)throw Error('نقشه استان‌ها دریافت نشد.');features=(await response.json()).features;const names=features.map(f=>f.properties['name:fa']).sort((a,b)=>a.localeCompare(b,'fa'));for(const name of names){const o=text('option',name);o.value=name;$('form-province').append(o);}}
-  if(connected){const result=await repoFile();base=clone(result.data);sha=result.sha;}
-  else {const response=await fetch('branches.json',{cache:'no-store'});if(!response.ok)throw Error('اطلاعات شعب دریافت نشد. دوباره تلاش کنید.');base=validateData(await response.json());sha='';}
+  if(connected){const result=await serverFile();base=clone(result.data);sha=result.sha;}
+  else {const response=await fetch(endpoint+'/api/branches',{cache:'no-store'});if(!response.ok)throw Error('اطلاعات شعب دریافت نشد. دوباره تلاش کنید.');base=validateData(await response.json());sha='';}
   draft=clone(base);message('اطلاعات '+fa(base.branches.length)+' شعبه دریافت شد.','success');render();return true;
  }catch(error){message(error.message,'error');return false;}finally{busy=false;updateButtons();}
 }
 $('connect-form').addEventListener('submit',async e=>{
- e.preventDefault();const next=$('token').value.trim();$('token').value='';if(!next)return;
- busy=true;updateButtons();token=next;
- try{const result=await repoFile();
+ e.preventDefault();const username=$('username').value.trim(),password=$('password').value;$('password').value='';if(!username||!password)return;
+ busy=true;updateButtons();
+ try{const login=await api('/api/login',{method:'POST',body:JSON.stringify({username,password})});token=login.token;const result=await serverFile();
   if(dirty().length&&sha&&sha!==result.sha)throw Error('نسخه سایت تغییر کرده است. تغییرات فعلی را بررسی و سپس با «دریافت دوباره» نسخه جدید را دریافت کنید.');
   if(dirty().length&&JSON.stringify(base.branches)!==JSON.stringify(result.data.branches))throw Error('نسخه سایت تغییر کرده است. ابتدا نسخه جدید را دریافت و تغییرات خود را دوباره ثبت کنید.');
   if(!dirty().length){base=clone(result.data);draft=clone(result.data);}sha=result.sha;connection();message('ورود مدیر انجام شد. می‌توانید تغییرات را منتشر کنید.','success');render();
  }catch(error){token='';connection();message(error.message,'error');}finally{busy=false;updateButtons();}
 });
-$('disconnect').addEventListener('click',()=>{token='';sha='';connection();message('از مدیریت خارج شدید. تغییرات منتشرنشده فقط تا زمان باز بودن صفحه باقی می‌مانند.');});
+$('disconnect').addEventListener('click',async()=>{busy=true;updateButtons();try{await api('/api/logout',{method:'POST'});}catch{}finally{token='';sha='';busy=false;connection();message('از مدیریت خارج شدید. تغییرات منتشرنشده فقط تا زمان باز بودن صفحه باقی می‌مانند.');}});
 $('reload').addEventListener('click',()=>{const action=()=>load(!!token);if(dirty().length)confirm('دریافت نسخه جدید؟','تغییرات منتشرنشده کنار گذاشته می‌شوند و آخرین اطلاعات سایت دریافت می‌شود.',action);else action();});
 function openEditor(id=''){
  editingId=id;$('branch-form').reset();$('form-error').textContent='';$('editor-title').textContent=id?'ویرایش شعبه':'شعبه جدید';
@@ -86,13 +79,15 @@ $('admin-search').addEventListener('input',render);$('admin-category').addEventL
 $('discard').addEventListener('click',()=>confirm('لغو تغییرات؟','تمام تغییرات منتشرنشده کنار گذاشته می‌شوند.',()=>{draft=clone(base);render();message('تغییرات منتشرنشده لغو شدند.');}));
 async function publish(){
  if(busy||!token||!dirty().length)return;
- busy=true;updateButtons();message('در حال بررسی نسخه سایت و انتشار تغییرات…');
+ busy=true;updateButtons();message('در حال بررسی نسخه سایت و ذخیره تغییرات…');
  try{
-  const latest=await repoFile();if(latest.sha!==sha)throw Error('نسخه سایت تغییر کرده است؛ برای جلوگیری از پاک‌شدن تغییرات دیگران، انتشار متوقف شد. تغییرات شما حفظ شده است. نسخه جدید را دریافت و تغییرات را دوباره ثبت کنید.');
-  const changes=dirty();draft.updatedAt=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Tehran',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
-  const result=await api(endpoint,{method:'PUT',body:JSON.stringify({message:'Update branches from management dashboard ('+changes.length+' changes)',content:encode(JSON.stringify(draft,null,2)+'\n'),sha,branch:'main'})});
-  if(!result.content?.sha)throw Error('پاسخ انتشار دریافت نشد؛ پیش از تلاش مجدد، نسخه سایت را بررسی کنید.');
-  sha=result.content.sha;base=clone(draft);render();$('deploy-link').hidden=false;message('تغییرات در گیت‌هاب ثبت شد. نسخه عمومی پس از پایان انتشار گیت‌هاب به‌روز می‌شود.','success');
+  const latest=await serverFile();if(latest.sha!==sha)throw Error('نسخه سایت تغییر کرده است؛ برای جلوگیری از پاک‌شدن تغییرات دیگران، انتشار متوقف شد. تغییرات شما حفظ شده است. نسخه جدید را دریافت و تغییرات را دوباره ثبت کنید.');
+  const original=new Map(base.branches.map(b=>[b.id,b])),current=new Map(draft.branches.map(b=>[b.id,b])),operations=[];
+  for(const branch of draft.branches)if(!original.has(branch.id)||JSON.stringify(original.get(branch.id))!==JSON.stringify(branch))operations.push({type:'upsert',branch});
+  for(const branch of base.branches)if(!current.has(branch.id))operations.push({type:'delete',id:branch.id});
+  const result=await api('/api/publish',{method:'POST',body:JSON.stringify({sha,operations})});
+  if(!result.sha||!result.data)throw Error('پاسخ ثبت دریافت نشد؛ پیش از تلاش مجدد، نسخه سایت را بررسی کنید.');
+  sha=result.sha;base=clone(result.data);draft=clone(base);render();$('deploy-link').hidden=false;message('تغییرات ذخیره شد و روی سایت در دسترس است.','success');
  }catch(error){message(error.message,'error');}finally{busy=false;updateButtons();}
 }
 $('publish').addEventListener('click',()=>{const changes=dirty();if(!token||!changes.length)return;confirm('انتشار '+fa(changes.length)+' تغییر؟',changes.map(c=>c.type+': '+c.name).join('\n')+'\n\nاین تغییرات روی سایت عمومی اعمال می‌شوند.',publish);});

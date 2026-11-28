@@ -1,0 +1,14 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+const root=path.dirname(fileURLToPath(import.meta.url));
+const output=path.join(root,'.cloudflare/output/v0');const worker=path.join(output,'workers/default');
+await fs.mkdir(path.join(worker,'bundle'),{recursive:true});
+await fs.copyFile(path.join(root,'worker.mjs'),path.join(worker,'bundle/worker.mjs'));
+await fs.copyFile(path.join(root,'../admin-data.js'),path.join(worker,'bundle/admin-data.js'));
+await fs.copyFile(path.join(root,'../assets/provinces.json'),path.join(worker,'bundle/provinces.json'));
+await fs.copyFile(path.join(root,'../branches.json'),path.join(worker,'bundle/initial-data.json'));
+const config={name:'xpoint-branch-admin',compatibilityDate:'2026-11-28',env:{AUTH_DB:{type:'d1',id:'67d7fbf8-0c42-4527-99b1-89138003bae9'}},manifest:{type:'complete',mainModule:'worker.mjs',modules:{'worker.mjs':{type:'esm'},'admin-data.js':{type:'esm'},'provinces.json':{type:'json'},'initial-data.json':{type:'json'}}}};
+await fs.writeFile(path.join(worker,'worker.config.json'),JSON.stringify(config,null,2));
+await fs.writeFile(path.join(output,'config.json'),JSON.stringify({accountId:'7cf55b8eef71da042ed2fd932faadbd8',buildContext:{isPreview:false}}));
+console.log('Prepared Worker build output (no secrets included).');
