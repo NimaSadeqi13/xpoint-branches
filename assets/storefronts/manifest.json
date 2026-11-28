@@ -1,8 +1,8 @@
 {
-  "source": "User-provided storefront archive",
+  "source": "User-provided storefront archive and photo attachments",
   "driveFileId": "1G9-r4MirPSH2ZO28k7tfd0MmDz1LYwgl",
   "onePhotoPerBranch": true,
-  "count": 62,
+  "count": 64,
   "photos": [
     {
       "branchId": "branch-001",
@@ -35,6 +35,15 @@
       "sourceFile": "هشتگرد.jpg",
       "photo": "assets/storefronts/branch-004.webp",
       "sourceSHA256": "b3d8bd857b35aeeb5832f6557a289416a835ac31c0695d6bf4cb61bff4018cd0"
+    },
+    {
+      "branchId": "branch-005",
+      "branchName": "فروشگاه کلاردشت",
+      "category": "xpoint",
+      "sourceFile": "ایکس پوینت-کلاردشت-.jpg",
+      "sourceType": "user_attachment",
+      "photo": "assets/storefronts/branch-005.webp",
+      "sourceSHA256": "f7f98a66e090b164abc73948d38bc596ff01d3338cce91c0707f64ecfa54ed17"
     },
     {
       "branchId": "branch-006",
@@ -299,6 +308,15 @@
       "sourceFile": "مرند.jpg",
       "photo": "assets/storefronts/branch-052.webp",
       "sourceSHA256": "386134f52245dabcba52ba6fadac97d0fc12e4eeffa25a05f862f70185948370"
+    },
+    {
+      "branchId": "branch-053",
+      "branchName": "فروشگاه یاسوج",
+      "category": "xpoint",
+      "sourceFile": "شعبه یاسوج.jpg",
+      "sourceType": "user_attachment",
+      "photo": "assets/storefronts/branch-053.webp",
+      "sourceSHA256": "c97aa0e8e20e17f81e5dbe71ce6bb6e11f23900098813e4476f1b36ce702ec91"
     },
     {
       "branchId": "branch-054",
