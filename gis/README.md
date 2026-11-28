@@ -5,7 +5,7 @@ Open `xpoint-branches.qgz` in QGIS 3.44 or newer. It has two relative-path layer
 For an offline copy, download `xpoint-qgis.zip`, extract all files together, and open the `.qgz` inside. No site installation or API key is needed.
 
 - `provinces.geojson`: all 31 provinces, EPSG:4326, checked with QGIS/GEOS and repaired only when invalid.
-- `branches.geojson`: all 94 source records. Valid source coordinates are point geometries; branches without verified coordinates keep a null geometry and remain visible in the attribute table.
+- `branches.geojson`: all 95 source records. Valid source coordinates are point geometries; branches without verified coordinates keep a null geometry and remain visible in the attribute table.
 
 The project displays in EPSG:3857, matching the website's Mercator projection. Province polygons are gray; X.point markers are orange, X.Vision Shop markers are blue, and Maadiran/Kanon markers are dark gray. No points are shifted to separate overlapping markers.
 

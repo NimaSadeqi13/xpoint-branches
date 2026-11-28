@@ -219,7 +219,7 @@ def main():
         archive.writestr('xpoint-qgis/OPEN-ME.txt',
             'Extract the whole ZIP, then open xpoint-branches.qgz in QGIS 3.44 or later.\n'
             'Keep branches.geojson and provinces.geojson beside the project file.\n'
-            '81 branch locations are source coordinates; 13 records have no point and remain in the attribute table.\n'
+            f'{len(records) - len(missing)} branch locations are source coordinates; {len(missing)} records have no point and remain in the attribute table.\n'
             'Map data: OpenStreetMap contributors, ODbL: https://www.openstreetmap.org/copyright\n'
             'Province source: https://github.com/hosseinhabibi2004/iran-geojson (GPL-3.0).\n')
     print(json.dumps({key: value for key, value in report.items() if key != 'missingCoordinates'}, ensure_ascii=True))

@@ -1231,23 +1231,17 @@
       "properties": {
         "id": "branch-053",
         "name": "فروشگاه یاسوج",
-        "category": "maadiran",
+        "category": "xpoint",
         "status": "فعال",
         "province": "کهگیلویه و بویراحمد",
         "city": "یاسوج",
-        "address": "خیابان چمران، نبش خیابان ولیعصر، مجتمع تجاری افشار، فروشگاه مرکزی مادیران (وضعیت غیرفعال)",
+        "address": "یاسوج ، میدان امام حسین ، خیابان جمهوری ، بالاتر از پمپ بنزین ، روبه روی بانک رفاه کارگران ، فروشگاه ایکس پوینت .",
         "phone": "074 - 91013630",
         "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
         "neshanUrl": "",
-        "location_status": "exact_source_coordinate"
+        "location_status": "missing_exact_coordinate"
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          51.5995646,
-          30.6634429
-        ]
-      }
+      "geometry": null
     },
     {
       "type": "Feature",
@@ -1279,23 +1273,17 @@
       "properties": {
         "id": "branch-055",
         "name": "فروشگاه کاشان",
-        "category": "maadiran",
+        "category": "xpoint",
         "status": "فعال",
         "province": "اصفهان",
         "city": "کاشان",
-        "address": "میدان معلم، بلوار مطهری، جنب کوچه ضیافت، فروشگاه مرکزی مادیران",
-        "phone": "031 - 91550031",
+        "address": "کاشان، خیابان باباافضل، جنب بازار سنتی کاشان، فروشگاه ایکس پوینت .",
+        "phone": "031-91550031",
         "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
         "neshanUrl": "",
-        "location_status": "exact_source_coordinate"
+        "location_status": "missing_exact_coordinate"
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          51.4354167,
-          33.9955
-        ]
-      }
+      "geometry": null
     },
     {
       "type": "Feature",
@@ -2178,6 +2166,24 @@
           35.6996792
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-095",
+      "properties": {
+        "id": "branch-095",
+        "name": "فروشگاه یزد",
+        "category": "xvision",
+        "status": "فعال",
+        "province": "یزد",
+        "city": "یزد",
+        "address": "",
+        "phone": "",
+        "hours": "",
+        "neshanUrl": "",
+        "location_status": "missing_exact_coordinate"
+      },
+      "geometry": null
     }
   ]
 }
