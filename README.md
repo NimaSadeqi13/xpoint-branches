@@ -42,7 +42,7 @@ Province names must exactly match `assets/provinces.json`. Use numeric coordinat
 
 ## Storefront photos
 
-64 branches have one reviewed photo each from the user-supplied `تصاویر شعب.rar` Drive archive and two subsequent photo attachments (Yasuj and Kelardasht). Duplicate views of the same branch were reduced to one selection; Rasht's two separate shops and Yazd's Maadiran/X.Vision stores remain distinct. The 31 branches without an identifiable supplied image keep their contact/address cards without a fabricated photo.
+66 branches have one reviewed photo each from the user-supplied `تصاویر شعب.rar` Drive archive and subsequent photo attachments (Yasuj, Kelardasht, Khorramabad and central Sari). Duplicate views of the same branch were reduced to one selection; Rasht's two separate shops and Yazd's Maadiran/X.Vision stores remain distinct. The 29 branches without an identifiable supplied image keep their contact/address cards without a fabricated photo.
 
 Photos live under `assets/storefronts/branch-NNN.webp`; `manifest.json` records the reviewed source filename and hash for each stable branch ID. PDFs supplied for Tabriz and Ilam contribute one embedded storefront photo each; Dezful's HEIC is converted for browser support. Orientation is retained, pixel dimensions are reduced only for delivery, and no visual content is generated or altered. Images load lazily, fit without cropping the storefront, and open individually at larger size. `branches.json` stores one optional `photo` object with relative `src`, `width`, and `height`.
 

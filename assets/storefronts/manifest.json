@@ -2,7 +2,7 @@
   "source": "User-provided storefront archive and photo attachments",
   "driveFileId": "1G9-r4MirPSH2ZO28k7tfd0MmDz1LYwgl",
   "onePhotoPerBranch": true,
-  "count": 64,
+  "count": 66,
   "photos": [
     {
       "branchId": "branch-001",
@@ -294,6 +294,15 @@
       "sourceSHA256": "1b9c1620cec51fd067d937e85d0e35a3ceb9d8e1575ba56aa6ee4122d6722744"
     },
     {
+      "branchId": "branch-050",
+      "branchName": "فروشگاه مرکزی ساری",
+      "category": "maadiran",
+      "sourceFile": "ساری.jpg",
+      "sourceType": "user_attachment",
+      "photo": "assets/storefronts/branch-050.webp",
+      "sourceSHA256": "5b2e08a1b4bfe28742f233047d152a0d3e51433e1f87365bb5c704d867a6d43b"
+    },
+    {
       "branchId": "branch-051",
       "branchName": "کانون ساری",
       "category": "kanon",
@@ -493,6 +502,15 @@
       "sourceFile": "نکا.jpg",
       "photo": "assets/storefronts/branch-083.webp",
       "sourceSHA256": "625194f6b88ff6c7c892b0b83a5c8bdbe17b0077e6f9b8a9a071f23951c454a9"
+    },
+    {
+      "branchId": "branch-084",
+      "branchName": "فروشگاه خرم آباد",
+      "category": "maadiran",
+      "sourceFile": "خرم آباد 2.jpg",
+      "sourceType": "user_attachment",
+      "photo": "assets/storefronts/branch-084.webp",
+      "sourceSHA256": "d0b6564ec7d49e21b7adeeb15dd0d2fd7a0c4e48ab8c7ea36c7f6169499e5fd8"
     },
     {
       "branchId": "branch-085",
