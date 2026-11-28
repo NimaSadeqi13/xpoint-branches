@@ -668,10 +668,17 @@
         "address": "گوهردشت، خیابان آزادی، نبش نهم غربی پلاک 2 فروشگاه ایکس پوینت",
         "phone": "026 - 34060600",
         "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
-        "neshanUrl": "https://neshan.org/maps/places/vbvxukPxW4Mn",
-        "location_status": "missing_exact_coordinate"
+        "neshanUrl": "https://neshan.org/maps/routing/car/destination/35.8525586,50.976946999999996",
+        "location_status": "user_provided_map_pin",
+        "locationCode": ""
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.976946999999996,
+          35.8525586
+        ]
+      }
     },
     {
       "type": "Feature",

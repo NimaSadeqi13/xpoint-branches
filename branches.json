@@ -574,12 +574,15 @@
         "02634060600"
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
-      "neshanUrl": "https://neshan.org/maps/places/vbvxukPxW4Mn",
+      "neshanUrl": "https://neshan.org/maps/routing/car/destination/35.8525586,50.976946999999996",
       "photo": {
         "src": "assets/storefronts/branch-029.webp",
         "width": 1000,
         "height": 750
-      }
+      },
+      "latitude": 35.8525586,
+      "longitude": 50.976946999999996,
+      "locationMethod": "user_provided_map_pin"
     },
     {
       "id": "branch-030",
