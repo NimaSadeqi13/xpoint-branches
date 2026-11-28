@@ -56,6 +56,10 @@ Province boundaries are derived from [hosseinhabibi2004/iran-geojson](https://gi
 
 GitHub Pages serves the main branch root. No secrets or original strategy documents are included in this repository.
 
+## QGIS preparation and quality checks
+
+The [QGIS workspace](gis/README.md) contains a styled native project, province and branch GeoJSON layers, and a data-quality report. `tools/build_gis.py` validates these with QGIS/GEOS, preserves original branch coordinates, retains records without coordinates, and can export the validated province layer into the same asset consumed by the current website. QGIS is a preparation tool, not a browser dependency; the landing-page structure and route/contact behavior remain the same.
+
 ## Map colors and position accuracy
 
 Province fills stay neutral gray in overview, hover, and selected views. X.point branch dots use the official orange; X.Vision Shop dots use blue #2474D2; Maadiran and Kanon dots remain dark gray, including when active. Active/hover state uses an outline. Points are never jittered or shifted for overlap; X.point dots are painted above other dots. Polygons and pins share one geographic projection and fit, including after province selection and viewport resizing. The source workbook update activates Langarud and Noor, with no changes to location links.

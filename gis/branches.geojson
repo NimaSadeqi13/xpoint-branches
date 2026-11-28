@@ -1,0 +1,2183 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "branch-001",
+      "properties": {
+        "id": "branch-001",
+        "name": "فروشگاه لاهیجان",
+        "category": "xpoint",
+        "status": "فعال",
+        "province": "گیلان",
+        "city": "لاهیجان",
+        "address": "روبروی باغ ملی – نبش خیابان انقلاب, فروشگاه مرکزی ایکس پوینت",
+        "phone": "013 - 44971100",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "https://nshn.ir/_bWTSJNBn5f0",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.002482,
+          37.2063806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-002",
+      "properties": {
+        "id": "branch-002",
+        "name": "فروشگاه تبریز",
+        "category": "xpoint",
+        "status": "فعال",
+        "province": "آذربایجان شرقی",
+        "city": "تبریز",
+        "address": "خیابان امام - نرسیده به نبش چهارراه شریعتی - پلاک750-751 - فروشگاه مرکزی ایکس پوینت",
+        "phone": "041 - 51263000",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.28975,
+          38.0680556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-003",
+      "properties": {
+        "id": "branch-003",
+        "name": "فروشگاه شهرری",
+        "category": "xpoint",
+        "status": "فعال",
+        "province": "تهران",
+        "city": "شهرری",
+        "address": "میدان نماز خیابان امام حسین(دیلمان) روبه روی خیابان مصطفی خمینی پلاک286 فروشگاه مرکزی مادیران",
+        "phone": "021-41703900",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "missing_exact_coordinate"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "id": "branch-004",
+      "properties": {
+        "id": "branch-004",
+        "name": "فروشگاه هشتگرد",
+        "category": "xpoint",
+        "status": "فعال",
+        "province": "البرز",
+        "city": "هشتگرد",
+        "address": "بلوار امام خمینی,بعد از میدان دخانیات ،نرسیده به میدان امام خمینی , فروشگاه مرکزی ایکس پوینت",
+        "phone": "026 - 34060630",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.6904723,
+          35.9530179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-005",
+      "properties": {
+        "id": "branch-005",
+        "name": "فروشگاه کلاردشت",
+        "category": "xpoint",
+        "status": "فعال",
+        "province": "مازندران",
+        "city": "کلاردشت",
+        "address": "حسن کیف بلوار امام خمینی رو به روی مسجد جامع ، پلاک183 فروشگاه مرکزی ایکس پوینت",
+        "phone": "011-42726120",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "missing_exact_coordinate"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "id": "branch-006",
+      "properties": {
+        "id": "branch-006",
+        "name": "فروشگاه بندرعباس",
+        "category": "xpoint",
+        "status": "فعال",
+        "province": "هرمزگان",
+        "city": "بندر عباس",
+        "address": "خیابان مصطفی خمینی بین چهارراه اتوبوسرانی و صادقیه فروشگاه مرکزی ایکس پوینت",
+        "phone": "076-91010260",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "missing_exact_coordinate"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "id": "branch-007",
+      "properties": {
+        "id": "branch-007",
+        "name": "فروشگاه بندر انزلی",
+        "category": "xpoint",
+        "status": "فعال",
+        "province": "گیلان",
+        "city": "بندر انزلی",
+        "address": "خیابان مطهری روبروی پاساژ کوهستانی فروشگاه مرکزی ایکس پوینت",
+        "phone": "013-44971300",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "https://nshn.ir/e0_bL1eiIBxMcI",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.455942099999994,
+          37.473961599999996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-008",
+      "properties": {
+        "id": "branch-008",
+        "name": "فروشگاه اصفهان",
+        "category": "xpoint",
+        "status": "فعال",
+        "province": "اصفهان",
+        "city": "اصفهان",
+        "address": "اصفهان، میدان جمهوری(دروازه تهران)، نبش خیابان فروغی پلاک12 فروشگاه مرکزی ایکس پوینت",
+        "phone": "031 - 32349521-3",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "https://nshn.ir/_bZDwhOxa1TJ",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.6516707,
+          32.6751354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-009",
+      "properties": {
+        "id": "branch-009",
+        "name": "فروشگاه لنگرود",
+        "category": "xpoint",
+        "status": "فعال",
+        "province": "گیلان",
+        "city": "لنگرود",
+        "address": "لنگرود خیابان امام خمینی روبه روی هلال احمر فروشگاه مرکزی ایکس پوینت",
+        "phone": "",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "https://nshn.ir/_bWRgHOBDShE",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.1543365,
+          37.1923098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-010",
+      "properties": {
+        "id": "branch-010",
+        "name": "فروشگاه نور",
+        "category": "xpoint",
+        "status": "فعال",
+        "province": "مازندران",
+        "city": "نور",
+        "address": "نور-بلوار امام خمینی - نبش کوچه سوردار 11 -فروشگاه مرکزی ایکس پوینت",
+        "phone": "011-42726130",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "https://nshn.ir/7bfZk_QFYSRo",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.0157902,
+          36.5766853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-011",
+      "properties": {
+        "id": "branch-011",
+        "name": "فروشگاه دزفول",
+        "category": "xvision",
+        "status": "فعال",
+        "province": "خوزستان",
+        "city": "دزفول",
+        "address": "خیابان طالقانی –جنب مسجد عاملی - فروشگاه مرکزی مادیران",
+        "phone": "061-91013595",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.400489,
+          32.379861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-012",
+      "properties": {
+        "id": "branch-012",
+        "name": "کانون رشت",
+        "category": "kanon",
+        "status": "فعال",
+        "province": "گیلان",
+        "city": "رشت",
+        "address": "میدان نیروی دریایی، قبل از مسجد فاطمه الزهرا، کانون بازنشستگان تأمین اجتماعی، فروشگاه مادیران",
+        "phone": "013 - 33322550",
+        "hours": "شنبه تا چهارشنبه 8:30 الی 14:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.6088558,
+          37.2642699
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-013",
+      "properties": {
+        "id": "branch-013",
+        "name": "فروشگاه رشت",
+        "category": "maadiran",
+        "status": "طراحی مجدد",
+        "province": "گیلان",
+        "city": "رشت",
+        "address": "خیابان مطهری، روبه‌روی مسجد بادی الله، جنب بانک مسکن، فروشگاه مرکزی مادیران",
+        "phone": "013 - 44971000",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.5937067,
+          37.2766626
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-014",
+      "properties": {
+        "id": "branch-014",
+        "name": "فروشگاه مشهد",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "خراسان رضوی",
+        "city": "مشهد",
+        "address": "تقاطع آزادشهر، بلوار معلم، بین معلم 7 و 9، فروشگاه مرکزی مادیران",
+        "phone": "36453000 - 051",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.5343649,
+          36.3263075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-015",
+      "properties": {
+        "id": "branch-015",
+        "name": "فروشگاه همدان",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "همدان",
+        "city": "همدان",
+        "address": "میدان آرامگاه بوعلی سینا، خیابان بین النهرین، فروشگاه مرکزی مادیران",
+        "phone": "081 - 38283222-4",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.5127014,
+          34.7907984
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-016",
+      "properties": {
+        "id": "branch-016",
+        "name": "فروشگاه اردبیل",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "اردبیل",
+        "city": "اردبیل",
+        "address": "سه راه دانش به سمت باغمیشه، نرسیده به کوچه ملاهادی، پلاک 7، فروشگاه مرکزی مادیران",
+        "phone": "045 - 91010090",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.2853056,
+          38.24425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-017",
+      "properties": {
+        "id": "branch-017",
+        "name": "کانون قائمشهر",
+        "category": "kanon",
+        "status": "فعال",
+        "province": "مازندران",
+        "city": "قائمشهر",
+        "address": "خیابان کارگر (بابل)، یاس 9، کانون بازنشستگان تأمین اجتماعی، فروشگاه مادیران",
+        "phone": "011 - 42081180",
+        "hours": "شنبه تا چهارشنبه 9:00 الی 14:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.8662485,
+          36.4673804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-018",
+      "properties": {
+        "id": "branch-018",
+        "name": "فروشگاه اهواز",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "خوزستان",
+        "city": "اهواز",
+        "address": "خیابان شریعتی (سی متری)، نبش طالقانی، فروشگاه مرکزی مادیران",
+        "phone": "061 - 91013595",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.6862081,
+          31.3210251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-019",
+      "properties": {
+        "id": "branch-019",
+        "name": "فروشگاه فردیس",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "البرز",
+        "city": "فردیس",
+        "address": "بعد از فلکه اول , به سمت سه راه حافظیه , روبه روی بانک پاسارگاد , فروشگاه مرکزی مادیران",
+        "phone": "026 - 34060620",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.9905797,
+          35.7337127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-020",
+      "properties": {
+        "id": "branch-020",
+        "name": "فروشگاه نوشهر",
+        "category": "maadiran",
+        "status": "طراحی مجدد",
+        "province": "مازندران",
+        "city": "نوشهر",
+        "address": "خیابان شهید کریمی، ایستگاه الجواد، فروشگاه مرکزی مادیران",
+        "phone": "011 - 42726400",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4776152,
+          36.6578607
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-021",
+      "properties": {
+        "id": "branch-021",
+        "name": "فروشگاه شهریار",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "تهران",
+        "city": "شهریار",
+        "address": "تقاطع خیابان مصطفی خمینی و بهشتی، پلاک 36/5، فروشگاه مرکزی مادیران",
+        "phone": "021 - 41703700",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.0651667,
+          35.6572778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-022",
+      "properties": {
+        "id": "branch-022",
+        "name": "فروشگاه زنجان",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "زنجان",
+        "city": "زنجان",
+        "address": "خیابان سعدی وسط، جنب مخابرات شهرستان زنجان، پلاک 61، فروشگاه مرکزی مادیران",
+        "phone": "024 - 33365250\n  024 - 33365088\n  024 - 33365567",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.4832025,
+          36.6688595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-023",
+      "properties": {
+        "id": "branch-023",
+        "name": "فروشگاه اراک",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "مرکزی",
+        "city": "اراک",
+        "address": "خیابان ملک، نرسیده به 12 متری، فروشگاه مرکزی مادیران",
+        "phone": "086 - 32210262-4",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.6940833,
+          34.083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-024",
+      "properties": {
+        "id": "branch-024",
+        "name": "فروشگاه یزد",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "یزد",
+        "city": "یزد",
+        "address": "خیابان ایت الله کاشانی, نرسیده به مسجد اتابکی, پلاک 765 ، فروشگاه مرکزی مادیران",
+        "phone": "035 - 38344035-7",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.3793255,
+          31.865774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-025",
+      "properties": {
+        "id": "branch-025",
+        "name": "فروشگاه صادقیه",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "تهران",
+        "city": "تهران",
+        "address": "فلکه اول صادقیه، خیابان ستارخان به سمت شرق، پلاک 647، فروشگاه مرکزی مادیران",
+        "phone": "021 - 41703100",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3436389,
+          35.72175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-026",
+      "properties": {
+        "id": "branch-026",
+        "name": "کانون بابل",
+        "category": "kanon",
+        "status": "فعال",
+        "province": "مازندران",
+        "city": "بابل",
+        "address": "چهارراه گله محله، ساختمان مقدسیان اریحی 3،کانون بازنشستگان تأمین اجتماعی، فروشگاه مادیران",
+        "phone": "011 - 42726600",
+        "hours": "شنبه تا چهارشنبه 8:30 الی 14:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.6714075,
+          36.548666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-027",
+      "properties": {
+        "id": "branch-027",
+        "name": "کانون بهشهر",
+        "category": "kanon",
+        "status": "فعال",
+        "province": "مازندران",
+        "city": "بهشهر",
+        "address": "میدان فخاریان، کوچه صدوقی ششم، کانون بازنشستگان تأمین اجتماعی، فروشگاه مادیران",
+        "phone": "011 - 34561967",
+        "hours": "شنبه تا چهارشنبه 8:30 الی 14:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.5547286,
+          36.6878626
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-028",
+      "properties": {
+        "id": "branch-028",
+        "name": "فروشگاه گنبد کاووس",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "گلستان",
+        "city": "گنبد کاووس",
+        "address": "خیابان طالقانی شرقی، بین کوچه 22 و ولیعصر، فروشگاه مرکزی مادیران",
+        "phone": "017 - 91010020",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.1773685,
+          37.2515293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-029",
+      "properties": {
+        "id": "branch-029",
+        "name": "فروشگاه کرج",
+        "category": "xpoint",
+        "status": "فعال",
+        "province": "البرز",
+        "city": "کرج",
+        "address": "گوهردشت، خیابان آزادی، نبش نهم غربی پلاک 2 فروشگاه ایکس پوینت",
+        "phone": "026 - 34060600",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "https://neshan.org/maps/places/vbvxukPxW4Mn",
+        "location_status": "missing_exact_coordinate"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "id": "branch-030",
+      "properties": {
+        "id": "branch-030",
+        "name": "فروشگاه کرمان",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "کرمان",
+        "city": "کرمان",
+        "address": "چهارراه طهماسب‌آباد، بعد از کوچه 16 بهشتی، روبروی پاساژ اباصالح‌المهدی، جنب بانک رفاه، پلاک 520، فروشگاه مرکزی مادیران",
+        "phone": "034 - 91090392",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.0641792,
+          30.2901413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-031",
+      "properties": {
+        "id": "branch-031",
+        "name": "فروشگاه مراغه",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "آذربایجان شرقی",
+        "city": "مراغه",
+        "address": "خیابان 17 شهریور، بالاتر از درمانگاه فرهنگیان، پلاک 85، فروشگاه مرکزی مادیران",
+        "phone": "041 - 91015002",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.2425278,
+          37.3967778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-032",
+      "properties": {
+        "id": "branch-032",
+        "name": "فروشگاه ارومیه",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "آذربایجان غربی",
+        "city": "ارومیه",
+        "address": "خیابان خیام جنوبی، نبش کوچه 15، پلاک 306، فروشگاه مرکزی مادیران",
+        "phone": "044 - 91010071",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0713056,
+          37.5414444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-033",
+      "properties": {
+        "id": "branch-033",
+        "name": "کانون نوشهر",
+        "category": "kanon",
+        "status": "فعال",
+        "province": "مازندران",
+        "city": "نوشهر",
+        "address": "خیابان طاهر، کوچه فلسطین،کانون بازنشستگان تأمین اجتماعی، فروشگاه مادیران",
+        "phone": "011 - 52333900",
+        "hours": "شنبه تا چهارشنبه 9:00 الی 14:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4995,
+          36.6485278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-034",
+      "properties": {
+        "id": "branch-034",
+        "name": "کانون علی آباد کتول",
+        "category": "kanon",
+        "status": "فعال",
+        "province": "گلستان",
+        "city": "علی آباد کتول",
+        "address": "چهارراه جنگلده، پشت پارک کودک، کانون بازنشستگان تأمین اجتماعی، فروشگاه مادیران",
+        "phone": "017 - 34239651",
+        "hours": "شنبه تا چهارشنبه 8:30 الی 14:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.8596126,
+          36.9068137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-035",
+      "properties": {
+        "id": "branch-035",
+        "name": "کانون خمینی شهر",
+        "category": "kanon",
+        "status": "فعال",
+        "province": "اصفهان",
+        "city": "خمینی شهر",
+        "address": "بلوار امیرکبیر، کوچه 138، کانون بازنشستگان تأمین اجتماعی، فروشگاه مادیران",
+        "phone": "031 - 33513088",
+        "hours": "شنبه تا چهارشنبه 8:30 الی 14:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.5446667,
+          32.6737222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-036",
+      "properties": {
+        "id": "branch-036",
+        "name": "کانون چالوس",
+        "category": "kanon",
+        "status": "فعال",
+        "province": "مازندران",
+        "city": "چالوس",
+        "address": "خیابان فدائیان اسلام،کانون بازنشستگان تأمین اجتماعی، فروشگاه مادیران",
+        "phone": "011 - 52244831",
+        "hours": "شنبه تا چهارشنبه 9:00 الی 14:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4286435,
+          36.6471617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-037",
+      "properties": {
+        "id": "branch-037",
+        "name": "فروشگاه قزوین",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "قزوین",
+        "city": "قزوین",
+        "address": "بلوار مدرس شمالی، بین کوچه سیدی و حسن پور، پلاک526، فروشگاه مرکزی مادیران",
+        "phone": "028 - 91014048",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.014084,
+          36.2815035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-038",
+      "properties": {
+        "id": "branch-038",
+        "name": "فروشگاه ایلام",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "ایلام",
+        "city": "ایلام",
+        "address": "میدان 22 بهمن، بلوار سیدالشهدا، روبروی بیمارستان قائم، فروشگاه مرکزی مادیران",
+        "phone": "084 - 91015011",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.424666,
+          33.6351775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-039",
+      "properties": {
+        "id": "branch-039",
+        "name": "فروشگاه کرمانشاه",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "کرمانشاه",
+        "city": "کرمانشاه",
+        "address": "خیابان اشرفی اصفهانی، بالاتر از سه راه برق (پل چوبی)، روبروی کوچه کلانتری سیزده، فروشگاه مرکزی مادیران",
+        "phone": "083 - 44340000",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.0586222,
+          34.3013937
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-040",
+      "properties": {
+        "id": "branch-040",
+        "name": "کانون سیرجان",
+        "category": "kanon",
+        "status": "فعال",
+        "province": "کرمان",
+        "city": "سیرجان",
+        "address": "خیابان جوادالائمه،کوچه جوادالائمه یک،کانون بازنشستگان تأمین اجتماعی، فروشگاه مادیران",
+        "phone": "034 - 42202909",
+        "hours": "شنبه تا چهارشنبه 8:30 الی 14:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.6694055,
+          29.4624945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-041",
+      "properties": {
+        "id": "branch-041",
+        "name": "کانون کرمان",
+        "category": "kanon",
+        "status": "فعال",
+        "province": "کرمان",
+        "city": "کرمان",
+        "address": "بلوار کارگر، خیابان مصلی، پارک مشاهیر، کانون بازنشستگان تأمین اجتماعی، فروشگاه مادیران",
+        "phone": "",
+        "hours": "شنبه تا چهارشنبه 8:30 الی 14:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.0699459,
+          30.3024016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-042",
+      "properties": {
+        "id": "branch-042",
+        "name": "کانون اصفهان",
+        "category": "kanon",
+        "status": "فعال",
+        "province": "اصفهان",
+        "city": "اصفهان",
+        "address": "خیابان امام خمینی، بعد از خیابان درخشان، کوچه تویسرکانی، کوچه 60، کانون بازنشستگان تأمین اجتماعی، فروشگاه مادیران",
+        "phone": "031 - 33331029",
+        "hours": "شنبه تا چهارشنبه 8:30 الی 14:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.6228333,
+          32.6945556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-043",
+      "properties": {
+        "id": "branch-043",
+        "name": "کانون کلاله",
+        "category": "kanon",
+        "status": "فعال",
+        "province": "گلستان",
+        "city": "کلاله",
+        "address": "خیابان امام خمینی شمالی، خیابان مصلی، بالاتر از کمیته امداد امام خمینی، نبش کوچه مصلی 4، فروشگاه مادیران",
+        "phone": "017 - 35449064",
+        "hours": "شنبه تا چهارشنبه 8:30 الی 14:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.4848131,
+          37.3838137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-044",
+      "properties": {
+        "id": "branch-044",
+        "name": "کانون لنگرود",
+        "category": "kanon",
+        "status": "فعال",
+        "province": "گیلان",
+        "city": "لنگرود",
+        "address": "خیابان امام، بعد از شهرداری بن بست صابر، کانون بازنشستگان تأمین اجتماعی لنگرود، فروشگاه مادیران",
+        "phone": "013 - 44971100",
+        "hours": "شنبه تا چهارشنبه 8:30 الی 14:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.1560104,
+          37.1900803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-045",
+      "properties": {
+        "id": "branch-045",
+        "name": "فروشگاه تربت حیدریه",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "خراسان رضوی",
+        "city": "تربت حیدریه",
+        "address": "خیابان کاشانی، روبروی کاشانی 10،جنب بانک تجارت کاشانی، پلاک 2، فروشگاه مرکزی مادیران",
+        "phone": "051 - 36453300",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.057161,
+          35.4208392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-046",
+      "properties": {
+        "id": "branch-046",
+        "name": "فروشگاه سبزوار",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "خراسان رضوی",
+        "city": "سبزوار",
+        "address": "خیابان اسرار شمالی ،بین اسرار 1 و 3، روبروی بانک تجارت مرکزی، پلاک 35/2، فروشگاه مرکزی مادیران",
+        "phone": "051 - 36453100",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.6761627,
+          36.2093779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-047",
+      "properties": {
+        "id": "branch-047",
+        "name": "فروشگاه بابلسر",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "مازندران",
+        "city": "بابلسر",
+        "address": "میدان بسیج (شهربانی)، بلوار پاسداران، نبش پاسداران یکم، فروشگاه مرکزی مادیران",
+        "phone": "011 - 42726700",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.6491988,
+          36.6984184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-048",
+      "properties": {
+        "id": "branch-048",
+        "name": "فروشگاه گرگان",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "گلستان",
+        "city": "گرگان",
+        "address": "خیابان ولیعصر (شالیکوبی)، نبش عدالت 15، فروشگاه مرکزی مادیران",
+        "phone": "017 - 91010020",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.4402546,
+          36.8326258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-049",
+      "properties": {
+        "id": "branch-049",
+        "name": "کانون یزد",
+        "category": "kanon",
+        "status": "فعال",
+        "province": "یزد",
+        "city": "یزد",
+        "address": "خیابان انقلاب، بلوار مشیر الممالک، کوچه گاج 1 ، فروشگاه مادیران",
+        "phone": "035 - 35285112",
+        "hours": "شنبه تا چهارشنبه 8:00 الی 13:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.337188,
+          31.9190711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-050",
+      "properties": {
+        "id": "branch-050",
+        "name": "فروشگاه مرکزی ساری",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "مازندران",
+        "city": "ساری",
+        "address": "خیابان قارن، نبش قارن2، فروشگاه مرکزی مادیران",
+        "phone": "011 - 42726500",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.0653172,
+          36.564308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-051",
+      "properties": {
+        "id": "branch-051",
+        "name": "کانون ساری",
+        "category": "kanon",
+        "status": "فعال",
+        "province": "مازندران",
+        "city": "ساری",
+        "address": "خیابان شهیدان عبوری، کوچه شهیدان عبوری 6 (علمیه)، پلاک 23، فروشگاه مادیران",
+        "phone": "011 - 33367381",
+        "hours": "شنبه تا چهارشنبه 8:30 الی 14:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.0459167,
+          36.5647222
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-052",
+      "properties": {
+        "id": "branch-052",
+        "name": "فروشگاه مرند",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "آذربایجان شرقی",
+        "city": "مرند",
+        "address": "خیابان جلفا، سی متر بالاتر از مسجد مومنلر، پایین‌تر از بانک مسکن، پلاک 83، فروشگاه مرکزی مادیران",
+        "phone": "041 - 51263100",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.7743333,
+          38.43225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-053",
+      "properties": {
+        "id": "branch-053",
+        "name": "فروشگاه یاسوج",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "کهگیلویه و بویراحمد",
+        "city": "یاسوج",
+        "address": "خیابان چمران، نبش خیابان ولیعصر، مجتمع تجاری افشار، فروشگاه مرکزی مادیران (وضعیت غیرفعال)",
+        "phone": "074 - 91013630",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.5995646,
+          30.6634429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-054",
+      "properties": {
+        "id": "branch-054",
+        "name": "فروشگاه میبد",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "یزد",
+        "city": "میبد",
+        "address": "محله یخدان,کوچه 13 ,طلوع پلاک 1388, فروشگاه مرکزی مادیران",
+        "phone": "035 - 91011980",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.0156877,
+          32.2489454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-055",
+      "properties": {
+        "id": "branch-055",
+        "name": "فروشگاه کاشان",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "اصفهان",
+        "city": "کاشان",
+        "address": "میدان معلم، بلوار مطهری، جنب کوچه ضیافت، فروشگاه مرکزی مادیران",
+        "phone": "031 - 91550031",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4354167,
+          33.9955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-056",
+      "properties": {
+        "id": "branch-056",
+        "name": "فروشگاه کازرون",
+        "category": "xpoint",
+        "status": "فعال",
+        "province": "فارس",
+        "city": "کازرون",
+        "address": "چهارراه انقلاب، ساختمان دارنگ، فروشگاه ایکس پوینت",
+        "phone": "071-91550071",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "https://neshan.org/maps/places/rbg41HWxaR8H#c35.689-51.389-11z-0p",
+        "location_status": "missing_exact_coordinate"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "id": "branch-057",
+      "properties": {
+        "id": "branch-057",
+        "name": "فروشگاه مسجد سلیمان",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "خوزستان",
+        "city": "مسجد سلیمان",
+        "address": "بلوار آزادی، سه راهی مخابرات، روبروی بانک سپه، فروشگاه مرکزی مادیران",
+        "phone": "061 - 91013595",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.3009758,
+          31.9358531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-058",
+      "properties": {
+        "id": "branch-058",
+        "name": "کانون گرگان",
+        "category": "kanon",
+        "status": "فعال",
+        "province": "گلستان",
+        "city": "گرگان",
+        "address": "خیابان ایرانمهر شمالی، کوچه ابوذر 17، انتهای کوچه، فروشگاه مادیران",
+        "phone": "017 - 32433612",
+        "hours": "شنبه تا چهارشنبه 8:30 الی 14:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.4186232,
+          36.8375315
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-059",
+      "properties": {
+        "id": "branch-059",
+        "name": "فروشگاه پارس آباد",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "اردبیل",
+        "city": "پارس آباد",
+        "address": "خیابان امام، میدان قیام، جنب بانک ملی، فروشگاه مرکزی مادیران",
+        "phone": "045 - 91010090",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.9079167,
+          39.6503889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-060",
+      "properties": {
+        "id": "branch-060",
+        "name": "فروشگاه کلاله",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "گلستان",
+        "city": "کلاله",
+        "address": "خیابان انقلاب، روبروی انقلاب 16، پلاک 105، فروشگاه مرکزی مادیران",
+        "phone": "017 - 91010020",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.4947114,
+          37.381268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-061",
+      "properties": {
+        "id": "branch-061",
+        "name": "فروشگاه قائمشهر",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "مازندران",
+        "city": "قائمشهر",
+        "address": "خیابان امام (بابل)، بین تلار 30 و تلار 32، فروشگاه مرکزی مادیران",
+        "phone": "011 - 42726000",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.8545833,
+          36.4645556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-062",
+      "properties": {
+        "id": "branch-062",
+        "name": "فروشگاه بابل",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "مازندران",
+        "city": "بابل",
+        "address": "میدان جمهوری اسلامی، خیابان دکتر علی شریعتی، بین معلم 26 و معلم 28، پلاک 314، فروشگاه مرکزی مادیران",
+        "phone": "011 - 42726200",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.6781988,
+          36.5674876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-063",
+      "properties": {
+        "id": "branch-063",
+        "name": "فروشگاه آزادشهر",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "گلستان",
+        "city": "آزادشهر",
+        "address": "میدان مرکزی، جنب پارکینگ ولیعصر، پلاک 46، فروشگاه مرکزی مادیران",
+        "phone": "017 - 91010020",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.1735276,
+          37.0869841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-064",
+      "properties": {
+        "id": "branch-064",
+        "name": "کانون تنکابن",
+        "category": "kanon",
+        "status": "فعال",
+        "province": "مازندران",
+        "city": "تنکابن",
+        "address": "خیابان امام خمینی، جنب سازمان تامین اجتماعی، فروشگاه مادیران",
+        "phone": "011-42726300",
+        "hours": "شنبه تا چهارشنبه 8:30 الی 14:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.8741667,
+          36.8219722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-065",
+      "properties": {
+        "id": "branch-065",
+        "name": "فروشگاه الوند",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "قزوین",
+        "city": "الوند",
+        "address": "بلوار سهروردی، بین کوچه احسان 6 و عترت، ساختمان پونک، پلاک 134، فروشگاه مرکزی مادیران",
+        "phone": "028 - 91014048",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.0691158,
+          36.158279
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-066",
+      "properties": {
+        "id": "branch-066",
+        "name": "فروشگاه بجنورد",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "خراسان شمالی",
+        "city": "بجنورد",
+        "address": "نبش چهارراه باسکول، تقاطع 17 شهریور، فروشگاه مرکزی مادیران",
+        "phone": "058 - 91011077",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.3320584,
+          37.4762809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-067",
+      "properties": {
+        "id": "branch-067",
+        "name": "فروشگاه رشت (شعبه دوم)",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "گیلان",
+        "city": "رشت",
+        "address": "میدان لاکانی، بلوار 22 بهمن، نبش بن‌بست شاد، فروشگاه مرکزی مادیران",
+        "phone": "013 - 44971300",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          49.5792443,
+          37.2710228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-068",
+      "properties": {
+        "id": "branch-068",
+        "name": "فروشگاه بیرجند",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "خراسان جنوبی",
+        "city": "بیرجند",
+        "address": "خیابان منتظری، بین منتظری 10 و منتظری 12، فروشگاه مرکزی مادیران",
+        "phone": "056 - 91011814",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.2129423,
+          32.8802765
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-069",
+      "properties": {
+        "id": "branch-069",
+        "name": "کانون شهرری",
+        "category": "kanon",
+        "status": "فعال",
+        "province": "تهران",
+        "city": "تهران",
+        "address": "بلوار آزادی، خیابان سعدی، بعد از تقاطع خیابان باقری، کانون بازنشستگان تامین اجتماعی، فروشگاه مادیران",
+        "phone": "021 - 55232059\n 021 - 55230751",
+        "hours": "شنبه تا چهارشنبه 7:00 الی 14:00 - 16:00 الی 18:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4217202,
+          35.5774258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-070",
+      "properties": {
+        "id": "branch-070",
+        "name": "فروشگاه رامسر",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "مازندران",
+        "city": "رامسر",
+        "address": "خیابان شهید مطهری (ابریشم محله)، روبروی بازار روز ابریشم، فروشگاه مرکزی مادیران",
+        "phone": "011 - 42726800",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.6501806,
+          36.911978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-071",
+      "properties": {
+        "id": "branch-071",
+        "name": "کانون آزادشهر",
+        "category": "kanon",
+        "status": "فعال",
+        "province": "گلستان",
+        "city": "آزادشهر",
+        "address": "خیابان امام ولایت 3، فروشگاه مادیران",
+        "phone": "017 - 35723501",
+        "hours": "شنبه تا چهارشنبه 8:30 الی 14:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.174601,
+          37.089583
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-072",
+      "properties": {
+        "id": "branch-072",
+        "name": "فروشگاه شاهرود",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "سمنان",
+        "city": "شاهرود",
+        "address": "میدان امام خمینی، ابتدای خیابان 22 بهمن، روبروی اداره برق، فروشگاه مرکزی مادیران",
+        "phone": "023 - 91013037",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.9661446,
+          36.4237091
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-073",
+      "properties": {
+        "id": "branch-073",
+        "name": "فروشگاه تالش",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "گیلان",
+        "city": "تالش",
+        "address": "خیابان امام، خیابان خرمشهر، فروشگاه مرکزی مادیران",
+        "phone": "013 - 44971400",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.905833,
+          37.799875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-074",
+      "properties": {
+        "id": "branch-074",
+        "name": "کانون ملایر",
+        "category": "kanon",
+        "status": "فعال",
+        "province": "همدان",
+        "city": "ملایر",
+        "address": "خیابان قائم مقام ، بعد از کوچه خالقی، کانون بازنشستگان تامین اجتماعی, فروشگاه مادیران",
+        "phone": "081-322226043",
+        "hours": "شنبه تا چهارشنبه 8:30 الی 14:00",
+        "neshanUrl": "",
+        "location_status": "missing_exact_coordinate"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "id": "branch-075",
+      "properties": {
+        "id": "branch-075",
+        "name": "کانون زاهدان",
+        "category": "kanon",
+        "status": "فعال",
+        "province": "سیستان و بلوچستان",
+        "city": "زاهدان",
+        "address": "بلوار آزادی، خیابان سعدی، بعد از تقاطع خیابان باقری، خانه کارگر زاهدان، فروشگاه مادیران",
+        "phone": "",
+        "hours": "شنبه تا چهارشنبه 8:30 الی 14:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.8755897,
+          29.4998979
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-076",
+      "properties": {
+        "id": "branch-076",
+        "name": "فروشگاه میانه",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "آذربایجان شرقی",
+        "city": "میانه",
+        "address": "خیابان مطهری، بالاتر از میدان نماز، بین کوچه مینو و پرتو، فروشگاه مرکزی مادیران",
+        "phone": "041-51263200",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.7083056,
+          37.42375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-077",
+      "properties": {
+        "id": "branch-077",
+        "name": "فروشگاه پونک",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "تهران",
+        "city": "تهران",
+        "address": "بزرگراه اشرفی اصفهانی، بالاتر از میدان پونک، نبش بن‌‌بست هفدهم، پلاک 339، فروشگاه‌ مرکزی مادیران",
+        "phone": "021 - 41703100",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3370833,
+          35.7645556
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-078",
+      "properties": {
+        "id": "branch-078",
+        "name": "فروشگاه نیشابور",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "خراسان رضوی",
+        "city": "نیشابور",
+        "address": "ارگ جنوبی، خیابان سید جمال‌الدین جنوبی، نبش اسدآبادی جنوبی 11، پلاک 243، فروشگاه مرکزی مادیران",
+        "phone": "051 - 36453200",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          58.798095,
+          36.198777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-079",
+      "properties": {
+        "id": "branch-079",
+        "name": "فروشگاه چالوس",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "مازندران",
+        "city": "چالوس",
+        "address": "خیابان شهید بهشتی، جنب مسجد جامع چالوس، فروشگاه مرکزی مادیران",
+        "phone": "011 - 42726900",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4215556,
+          36.6535278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-080",
+      "properties": {
+        "id": "branch-080",
+        "name": "فروشگاه رفسنجان",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "کرمان",
+        "city": "رفسنجان",
+        "address": "خیابان شریعتی غربی، روبروی آموزش و پرورش، فروشگاه مرکزی مادیران",
+        "phone": "034 - 91090392",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "missing_exact_coordinate"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "id": "branch-081",
+      "properties": {
+        "id": "branch-081",
+        "name": "کانون اردکان",
+        "category": "kanon",
+        "status": "فعال",
+        "province": "یزد",
+        "city": "اردکان",
+        "address": "شهرک انقلاب، میدان آزادی، ضلع غربی پارک آزادی، خیابان یزدان، فروشگاه مادیران",
+        "phone": "035 - 32244549",
+        "hours": "شنبه تا چهارشنبه 8:00 الی 13:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.0127711,
+          32.3196519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-082",
+      "properties": {
+        "id": "branch-082",
+        "name": "فروشگاه تنکابن",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "مازندران",
+        "city": "تنکابن",
+        "address": "بلوار شهید شیرودی، روبروی برج مغربی، نبش کوچه لطفی، فروشگاه مرکزی مادیران",
+        "phone": "011 - 42726300",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.864819,
+          36.828835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-083",
+      "properties": {
+        "id": "branch-083",
+        "name": "فروشگاه نکا",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "مازندران",
+        "city": "نکا",
+        "address": "نرسیده به چهارراه مرکزی ، جنب پاساژ عبدی ، فروشگاه مرکزی مادیران",
+        "phone": "011-42726110",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.2969841,
+          36.6493698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-084",
+      "properties": {
+        "id": "branch-084",
+        "name": "فروشگاه خرم آباد",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "لرستان",
+        "city": "خرم آباد",
+        "address": "بعد از چهارراه رنگین کمان ، خیابان معلم ، میدان رضایی ، روبروی دانشگاه علوم پزشکی ،پلاک 33 ، فروشگاه مرکزی مادیران",
+        "phone": "066-91010214",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.359267,
+          33.489647
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-085",
+      "properties": {
+        "id": "branch-085",
+        "name": "فروشگاه ساوه",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "مرکزی",
+        "city": "ساوه",
+        "address": "بلوار مطهری ، روبروی میدان صفری ، نبش مطهری 25 ، پلاک2 فروشگاه مرکزی مادیران",
+        "phone": "086-91015850",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.366527,
+          35.026009
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-086",
+      "properties": {
+        "id": "branch-086",
+        "name": "کانون شاهین شهر",
+        "category": "kanon",
+        "status": "فعال",
+        "province": "اصفهان",
+        "city": "شاهین شهر",
+        "address": "خیابان عطار فرعی 1 شرقی پلاک33 فروشگاه مادیران",
+        "phone": "",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "missing_exact_coordinate"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "id": "branch-087",
+      "properties": {
+        "id": "branch-087",
+        "name": "کانون بیرجند",
+        "category": "kanon",
+        "status": "فعال",
+        "province": "خراسان جنوبی",
+        "city": "بیرجند",
+        "address": "خیابان شهدا - شهدای 1- انتهای میلان - فروشگاه مادیران",
+        "phone": "",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "missing_exact_coordinate"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "id": "branch-088",
+      "properties": {
+        "id": "branch-088",
+        "name": "کانون مشهد",
+        "category": "kanon",
+        "status": "فعال",
+        "province": "خراسان رضوی",
+        "city": "مشهد",
+        "address": "نبش میدان ابوطالب , فروشگاه مادیران",
+        "phone": "9195977581",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "missing_exact_coordinate"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "id": "branch-089",
+      "properties": {
+        "id": "branch-089",
+        "name": "کانون بجنورد",
+        "category": "kanon",
+        "status": "فعال",
+        "province": "خراسان شمالی",
+        "city": "بجنورد",
+        "address": "خیابان شهدا - شهدای 1 - مقابل شهرداری فروشگاه مادیران",
+        "phone": "",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "missing_exact_coordinate"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "id": "branch-090",
+      "properties": {
+        "id": "branch-090",
+        "name": "کانون گنبد کاووس",
+        "category": "kanon",
+        "status": "فعال",
+        "province": "گلستان",
+        "city": "گنبد کاووس",
+        "address": "خیابان نامجو، نبش تقاطع استاد شهریار فروشگاه مادیران",
+        "phone": "",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "missing_exact_coordinate"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "id": "branch-091",
+      "properties": {
+        "id": "branch-091",
+        "name": "کانون آستارا",
+        "category": "kanon",
+        "status": "فعال",
+        "province": "گیلان",
+        "city": "آستارا",
+        "address": "بلوار جمهوری اسلامی – مجتمع مسکونی گمرک فروشگاه مادیران",
+        "phone": "",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "",
+        "location_status": "missing_exact_coordinate"
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "id": "branch-092",
+      "properties": {
+        "id": "branch-092",
+        "name": "کانون تهرانپارس",
+        "category": "kanon",
+        "status": "فعال",
+        "province": "تهران",
+        "city": "تهران",
+        "address": "تهرانپارس - بلوار آیت الله خوشوقت - مجتمع تجاری و مرکز خرید پارسیان - فروشگاه مادیران",
+        "phone": "",
+        "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+        "neshanUrl": "https://nshn.ir/_bv_ifexTpsh",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.5294343,
+          35.7344625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-093",
+      "properties": {
+        "id": "branch-093",
+        "name": "فروشگاه ورامین",
+        "category": "maadiran",
+        "status": "فعال",
+        "province": "تهران",
+        "city": "ورامین",
+        "address": "خیابان مسجد جامع، نبش کوچه نبوت، فروشگاه مرکزی مادیران",
+        "phone": "021 - 41703200",
+        "hours": "شنبه تا چهارشنبه 7:00 الی 14:00 - 16:00 الی 18:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.644105,
+          35.324269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "branch-094",
+      "properties": {
+        "id": "branch-094",
+        "name": "کانون تهران",
+        "category": "kanon",
+        "status": "فعال",
+        "province": "تهران",
+        "city": "تهران",
+        "address": "خیابان انقلاب اسلامی، خیابان پروفسور هانری کربن، کوچه شیرزاد، پلاک 11، طبقه همکف، فروشگاه مادیران",
+        "phone": "021 - 66724464",
+        "hours": "شنبه تا چهارشنبه 8:30 الی 14:00",
+        "neshanUrl": "",
+        "location_status": "exact_source_coordinate"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4080119,
+          35.6996792
+        ]
+      }
+    }
+  ]
+}
