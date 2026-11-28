@@ -2,7 +2,7 @@
   "source": "User-provided storefront archive and photo attachments",
   "driveFileId": "1G9-r4MirPSH2ZO28k7tfd0MmDz1LYwgl",
   "onePhotoPerBranch": true,
-  "count": 68,
+  "count": 69,
   "photos": [
     {
       "branchId": "branch-001",
@@ -480,6 +480,15 @@
       "sourceFile": "میانه.jpg",
       "photo": "assets/storefronts/branch-076.webp",
       "sourceSHA256": "8f814a0d047be2afbc8c96b34931de07e3c478415f0c773b6039c647aafe27ef"
+    },
+    {
+      "branchId": "branch-077",
+      "branchName": "فروشگاه پونک",
+      "category": "maadiran",
+      "sourceFile": "codex-clipboard-d65a9d76-399a-489f-8131-c13d706eaa44.jpg",
+      "sourceType": "user_attachment",
+      "photo": "assets/storefronts/branch-077.webp",
+      "sourceSHA256": "4d876ffb4d08e647f64d2c1a3ffe0dbfc4da36f9419fe8c83ef8d8fc5f938450"
     },
     {
       "branchId": "branch-078",

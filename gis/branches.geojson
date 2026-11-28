@@ -1266,10 +1266,17 @@
         "address": "یاسوج ، میدان امام حسین ، خیابان جمهوری ، بالاتر از پمپ بنزین ، روبه روی بانک رفاه کارگران ، فروشگاه ایکس پوینت .",
         "phone": "074 - 91013630",
         "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
-        "neshanUrl": "",
-        "location_status": "missing_exact_coordinate"
+        "neshanUrl": "https://neshan.org/maps/routing/car/destination/30.662750799999998,51.600794",
+        "location_status": "user_provided_map_pin",
+        "locationCode": ""
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.600794,
+          30.662750799999998
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -1308,10 +1315,17 @@
         "address": "کاشان، خیابان باباافضل، جنب بازار سنتی کاشان، فروشگاه ایکس پوینت .",
         "phone": "031-91550031",
         "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
-        "neshanUrl": "",
-        "location_status": "missing_exact_coordinate"
+        "neshanUrl": "https://neshan.org/maps/routing/car/destination/33.9834859,51.4450479",
+        "location_status": "user_provided_map_pin",
+        "locationCode": ""
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.4450479,
+          33.9834859
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -1897,10 +1911,17 @@
         "address": "خیابان شریعتی غربی، روبروی آموزش و پرورش، فروشگاه مرکزی مادیران",
         "phone": "034 - 91090392",
         "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
-        "neshanUrl": "",
-        "location_status": "missing_exact_coordinate"
+        "neshanUrl": "https://neshan.org/maps/routing/car/destination/30.4072927,55.9831108",
+        "location_status": "user_provided_map_pin",
+        "locationCode": ""
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.9831108,
+          30.4072927
+        ]
+      }
     },
     {
       "type": "Feature",
