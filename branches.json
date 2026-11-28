@@ -1,7 +1,6 @@
 {
   "updatedAt": "2026-11-28",
-  "sourceDate": "1405/07/08",
-  "source": "لیست شعب 14050708.xlsx",
+  "source": "لیست شعب 122.xlsx",
   "branches": [
     {
       "id": "branch-001",
@@ -1780,10 +1779,16 @@
       "status": "فعال",
       "province": "یزد",
       "city": "یزد",
-      "address": "",
-      "phone": "",
-      "phones": [],
-      "hours": "",
+      "address": "یزد - خیابان فرخی - پاساژ فکری - طبقه همکف - فروشگاه مادیران",
+      "phone": "035-91011980",
+      "phones": [
+        "03591011980"
+      ],
+      "hours": "شنبه تا چهارشنبه 7:00 الی 14:00 - 16:00 الی 18:00",
+      "locationMethod": "provided_plus_code_center",
+      "locationCode": "8H3PV9Q6+2QP",
+      "latitude": 31.8875875,
+      "longitude": 54.361953125,
       "photo": {
         "src": "assets/storefronts/branch-095.webp",
         "width": 1440,

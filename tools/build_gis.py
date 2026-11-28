@@ -120,6 +120,9 @@ def main():
         properties = {key: branch.get(key, '') for key in
                       ('id', 'name', 'category', 'status', 'province', 'city', 'address', 'phone', 'hours', 'neshanUrl')}
         properties['location_status'] = 'exact_source_coordinate' if geometry else 'missing_exact_coordinate'
+        if branch.get('locationMethod'):
+            properties['location_status'] = branch['locationMethod']
+            properties['locationCode'] = branch.get('locationCode', '')
         point_features.append({'type': 'Feature', 'id': branch['id'], 'properties': properties, 'geometry': geometry})
     if outside:
         raise ValueError('Branches outside their declared province: ' + ', '.join(outside))
@@ -171,6 +174,7 @@ def main():
         'sourceCRS': 'EPSG:4326', 'projectCRS': project.crs().authid(),
         'pointCount': len(records) - len(missing), 'missingCoordinateCount': len(missing),
         'categoryCounts': dict(collections.Counter(b['category'] for b in records)),
+        'locationMethods': dict(collections.Counter(b.get('locationMethod', 'source_coordinate' if b.get('latitude') is not None else 'missing') for b in records)),
         'repairedProvinces': repaired, 'branchesOutsideDeclaredProvince': outside,
         'pointCoordinatesPreserved': True, 'missingCoordinates': missing,
         'webAssetUpdated': args.write_web,

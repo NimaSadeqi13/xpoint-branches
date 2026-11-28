@@ -1,6 +1,6 @@
 {
   "engine": "QGIS 3.44.15-Solothurn",
-  "sourceBranchSHA256": "a2a5d94e8fd3763521e2db26aada1aafe505b311acd3d3a4b4de7fc039fc9d59",
+  "sourceBranchSHA256": "830cdc7881c69e7ec9b3d4eb6399b9935c3eac9a97c7e6afbbe8fec6e22d3424",
   "sourceProvinceSHA256": "325ffd846453df78020de77bd4d4a8b787e03d7b6363e03d536e8aa0c79aa5cc",
   "outputProvinceSHA256": "0cfdef4e4af5085862cfd1263c4f4b3b67848cd5412ef96e971ac95feedc6b7a",
   "branchCount": 95,
@@ -8,13 +8,18 @@
   "validProvinceCount": 31,
   "sourceCRS": "EPSG:4326",
   "projectCRS": "EPSG:3857",
-  "pointCount": 79,
-  "missingCoordinateCount": 16,
+  "pointCount": 80,
+  "missingCoordinateCount": 15,
   "categoryCounts": {
     "xpoint": 14,
     "xvision": 2,
     "kanon": 30,
     "maadiran": 49
+  },
+  "locationMethods": {
+    "source_coordinate": 79,
+    "missing": 15,
+    "provided_plus_code_center": 1
   },
   "repairedProvinces": [
     "لرستان"
@@ -110,12 +115,6 @@
       "id": "branch-091",
       "name": "کانون آستارا",
       "province": "گیلان",
-      "hasNeshanLink": false
-    },
-    {
-      "id": "branch-095",
-      "name": "فروشگاه یزد",
-      "province": "یزد",
       "hasNeshanLink": false
     }
   ],

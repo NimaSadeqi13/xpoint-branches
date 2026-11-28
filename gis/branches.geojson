@@ -2177,13 +2177,20 @@
         "status": "فعال",
         "province": "یزد",
         "city": "یزد",
-        "address": "",
-        "phone": "",
-        "hours": "",
+        "address": "یزد - خیابان فرخی - پاساژ فکری - طبقه همکف - فروشگاه مادیران",
+        "phone": "035-91011980",
+        "hours": "شنبه تا چهارشنبه 7:00 الی 14:00 - 16:00 الی 18:00",
         "neshanUrl": "",
-        "location_status": "missing_exact_coordinate"
+        "location_status": "provided_plus_code_center",
+        "locationCode": "8H3PV9Q6+2QP"
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.361953125,
+          31.8875875
+        ]
+      }
     }
   ]
 }
