@@ -2,7 +2,7 @@
   "source": "User-provided storefront archive and photo attachments",
   "driveFileId": "1G9-r4MirPSH2ZO28k7tfd0MmDz1LYwgl",
   "onePhotoPerBranch": true,
-  "count": 66,
+  "count": 68,
   "photos": [
     {
       "branchId": "branch-001",
@@ -156,6 +156,24 @@
       "sourceFile": "فروشگاه شهریار.jpg",
       "photo": "assets/storefronts/branch-021.webp",
       "sourceSHA256": "e7a0b5eb253e6411aca69cebaaef85b5faa31e5b65737646d6244c1bab48b9ad"
+    },
+    {
+      "branchId": "branch-022",
+      "branchName": "فروشگاه زنجان",
+      "category": "maadiran",
+      "sourceFile": "زنجان (2).jpg",
+      "sourceType": "user_attachment",
+      "photo": "assets/storefronts/branch-022.webp",
+      "sourceSHA256": "aa4d59060cbfd030efb1418a5e64ca4e3454e7cf5d548c480ec9daba4dab9787"
+    },
+    {
+      "branchId": "branch-023",
+      "branchName": "فروشگاه اراک",
+      "category": "maadiran",
+      "sourceFile": "اراک.jpg",
+      "sourceType": "user_attachment",
+      "photo": "assets/storefronts/branch-023.webp",
+      "sourceSHA256": "e4a9553355ae5585c3eeca19da522b3529eb0c2e280d75885670277d21208bac"
     },
     {
       "branchId": "branch-024",

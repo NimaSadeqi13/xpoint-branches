@@ -460,7 +460,12 @@
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 36.6688595,
-      "longitude": 48.4832025
+      "longitude": 48.4832025,
+      "photo": {
+        "src": "assets/storefronts/branch-022.webp",
+        "width": 1440,
+        "height": 1080
+      }
     },
     {
       "id": "branch-023",
@@ -476,7 +481,12 @@
       ],
       "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
       "latitude": 34.083,
-      "longitude": 49.6940833
+      "longitude": 49.6940833,
+      "photo": {
+        "src": "assets/storefronts/branch-023.webp",
+        "width": 1440,
+        "height": 1080
+      }
     },
     {
       "id": "branch-024",
