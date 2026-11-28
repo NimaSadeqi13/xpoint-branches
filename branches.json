@@ -62,7 +62,11 @@
         "src": "assets/storefronts/branch-003.webp",
         "width": 1080,
         "height": 1440
-      }
+      },
+      "latitude": 35.603271,
+      "longitude": 51.429071,
+      "locationMethod": "user_provided_map_pin",
+      "neshanUrl": "https://neshan.org/maps/routing/car/destination/35.603271,51.429071"
     },
     {
       "id": "branch-004",

@@ -62,10 +62,17 @@
         "address": "میدان نماز خیابان امام حسین(دیلمان) روبه روی خیابان مصطفی خمینی پلاک286 فروشگاه مرکزی مادیران",
         "phone": "021-41703900",
         "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
-        "neshanUrl": "",
-        "location_status": "missing_exact_coordinate"
+        "neshanUrl": "https://neshan.org/maps/routing/car/destination/35.603271,51.429071",
+        "location_status": "user_provided_map_pin",
+        "locationCode": ""
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.429071,
+          35.603271
+        ]
+      }
     },
     {
       "type": "Feature",

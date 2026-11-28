@@ -1,6 +1,6 @@
 {
   "engine": "QGIS 3.44.15-Solothurn",
-  "sourceBranchSHA256": "c2fcc2d908a946c5154a11b8faaeb5f601cb71908db893042a6271c2f7cb329b",
+  "sourceBranchSHA256": "f56a8ebdf6f179faefcbd90d44a8c24f20b9ee5cf906fab329292647a1aa26b2",
   "sourceProvinceSHA256": "325ffd846453df78020de77bd4d4a8b787e03d7b6363e03d536e8aa0c79aa5cc",
   "outputProvinceSHA256": "0cfdef4e4af5085862cfd1263c4f4b3b67848cd5412ef96e971ac95feedc6b7a",
   "branchCount": 95,
@@ -8,8 +8,8 @@
   "validProvinceCount": 31,
   "sourceCRS": "EPSG:4326",
   "projectCRS": "EPSG:3857",
-  "pointCount": 84,
-  "missingCoordinateCount": 11,
+  "pointCount": 85,
+  "missingCoordinateCount": 10,
   "categoryCounts": {
     "xpoint": 14,
     "xvision": 2,
@@ -18,8 +18,8 @@
   },
   "locationMethods": {
     "source_coordinate": 79,
-    "missing": 11,
-    "user_provided_map_pin": 3,
+    "user_provided_map_pin": 4,
+    "missing": 10,
     "provided_plus_code_center": 2
   },
   "repairedProvinces": [
@@ -28,12 +28,6 @@
   "branchesOutsideDeclaredProvince": [],
   "pointCoordinatesPreserved": true,
   "missingCoordinates": [
-    {
-      "id": "branch-003",
-      "name": "فروشگاه شهرری",
-      "province": "تهران",
-      "hasNeshanLink": false
-    },
     {
       "id": "branch-053",
       "name": "فروشگاه یاسوج",
