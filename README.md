@@ -89,3 +89,20 @@ Astara Kanon uses 38.430814399999996,48.8789182 from the place-coordinate array 
 Mashhad Kanon uses the user-supplied pin 36.3200377,59.589579799999996; Birjand Kanon uses 32.8745835,59.2184489. Both use coordinate-based Neshan routes.
 
 Shahin Shahr Kanon uses the supplied pin 32.8808984,51.552537; Bojnord Kanon uses 37.4778727,57.314890299999995. All 95 branches now have coordinates and Neshan routes.
+
+
+## Branch management
+
+Open `admin.html` from the site footer. The header quick search opens on demand and synchronizes with the existing locator search. Neutral panels use a soft gray palette; category/map colors are preserved.
+
+The dashboard can add, edit and remove branches. Changes are staged in memory and published only after reviewing the change list and confirming publication. No token, draft, staff data or credential is stored in browser storage. Reloading or leaving the page discards unpublished work after a browser warning.
+
+To publish, create a GitHub fine-grained personal access token from an authorized account, restricted to `XpointShops/Map`, with repository **Contents: Read and write**. Organization approval may be required. Paste it into the dashboard connection field; the field clears immediately. The token is held only in memory, is sent only to `https://api.github.com`, and is discarded on logout/reload. No credentials are embedded in the site. GitHub enforces repository authorization; anonymous visitors can prepare a draft but cannot publish. Branch protection and token permissions may prevent writing to main; errors retain the draft.
+
+Publication updates `branches.json` on main via the GitHub Contents API using its current blob SHA. Both a fresh preflight read and the SHA write guard concurrent changes. Conflicts stop publication and retain the draft; load the latest version and reapply changes. A successful save confirms the GitHub commit, not completed Pages deployment; the dashboard links to deployment progress. Existing branch metadata and photos remain intact. New IDs advance monotonically using `nextBranchNumber`; removed assets are retained for recovery. New branches require a name, category, province, city, address, valid Iranian phone, and a pin inside the selected province. Map viewport coordinates are never treated as a branch pin.
+
+The live locator reads `branches.json` directly. Offline QGIS/GeoJSON/ZIP files in `gis/` are snapshots; regenerate with `tools/build_gis.py` when a refreshed GIS deliverable is needed after dashboard changes.
+
+GitHub API reference: https://docs.github.com/en/rest/repos/contents#create-or-update-file-contents
+
+Run dashboard data-validation tests with `node --test tools/admin-data.test.mjs`. The UI and publishing contract were also tested with browser automation and a mocked GitHub API, including conflicts and denied writes; no production branch was added or deleted during tests.

@@ -125,7 +125,19 @@ async function init(){
   }
 }
 $('home').addEventListener('click',()=>setProvince(''));$('reset').addEventListener('click',()=>setProvince(''));
-$('province-select').addEventListener('change',e=>{query='';$('search').value='';$('clear-search').hidden=true;setProvince(e.target.value)});
-$('search').addEventListener('input',e=>{query=normalize(e.target.value);$('clear-search').hidden=!e.target.value;renderResults();if(features.length)drawMap()});
-$('clear-search').addEventListener('click',()=>{query='';$('search').value='';$('clear-search').hidden=true;renderResults();if(features.length)drawMap();$('search').focus()});
+function syncSearch(value,global=false){
+  query=normalize(value);$('search').value=value;$('top-search').value=value;
+  $('clear-search').hidden=!value;$('top-clear').hidden=!value;
+  if(global&&features.length&&(selected||category)){category='';setProvince('');}
+  else {renderResults();if(features.length)drawMap();}
+}
+$('province-select').addEventListener('change',e=>{syncSearch('');setProvince(e.target.value)});
+$('search').addEventListener('input',e=>syncSearch(e.target.value));
+$('top-search').addEventListener('input',e=>syncSearch(e.target.value,true));
+$('top-search-form').addEventListener('submit',e=>{e.preventDefault();syncSearch($('top-search').value,true);$('header-search').open=false;$('locator').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});$('results-title').setAttribute('tabindex','-1');$('results-title').focus({preventScroll:true})});
+$('header-search').addEventListener('toggle',()=>{if($('header-search').open)$('top-search').focus()});
+document.addEventListener('click',e=>{if(!$('header-search').contains(e.target))$('header-search').open=false});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&$('header-search').open){$('header-search').open=false;$('header-search').querySelector('summary').focus()}});
+$('clear-search').addEventListener('click',()=>{syncSearch('');$('search').focus()});
+$('top-clear').addEventListener('click',()=>{syncSearch('');$('top-search').focus()});
 window.addEventListener('popstate',readHash);window.addEventListener('hashchange',readHash);init();
