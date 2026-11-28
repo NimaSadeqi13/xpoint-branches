@@ -1495,7 +1495,11 @@
       "phones": [
         "02141703000"
       ],
-      "hours": "شنبه تا چهارشنبه 8:30 الی 14:00"
+      "hours": "شنبه تا چهارشنبه 8:30 الی 14:00",
+      "latitude": 34.2935818,
+      "longitude": 48.829259099999994,
+      "locationMethod": "user_provided_map_pin",
+      "neshanUrl": "https://neshan.org/maps/routing/car/destination/34.2935818,48.829259099999994"
     },
     {
       "id": "branch-075",
@@ -1732,7 +1736,11 @@
       "phones": [
         "02141703000"
       ],
-      "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00"
+      "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+      "latitude": 32.8808984,
+      "longitude": 51.552537,
+      "locationMethod": "user_provided_map_pin",
+      "neshanUrl": "https://neshan.org/maps/routing/car/destination/32.8808984,51.552537"
     },
     {
       "id": "branch-087",
@@ -1746,7 +1754,11 @@
       "phones": [
         "02141703000"
       ],
-      "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00"
+      "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+      "latitude": 32.8745835,
+      "longitude": 59.2184489,
+      "locationMethod": "user_provided_map_pin",
+      "neshanUrl": "https://neshan.org/maps/routing/car/destination/32.8745835,59.2184489"
     },
     {
       "id": "branch-088",
@@ -1760,7 +1772,11 @@
       "phones": [
         "09195977581"
       ],
-      "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00"
+      "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+      "latitude": 36.3200377,
+      "longitude": 59.589579799999996,
+      "locationMethod": "user_provided_map_pin",
+      "neshanUrl": "https://neshan.org/maps/routing/car/destination/36.3200377,59.589579799999996"
     },
     {
       "id": "branch-089",
@@ -1774,7 +1790,11 @@
       "phones": [
         "02141703000"
       ],
-      "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00"
+      "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+      "latitude": 37.4778727,
+      "longitude": 57.314890299999995,
+      "locationMethod": "user_provided_map_pin",
+      "neshanUrl": "https://neshan.org/maps/routing/car/destination/37.4778727,57.314890299999995"
     },
     {
       "id": "branch-090",
@@ -1788,7 +1808,11 @@
       "phones": [
         "02141703000"
       ],
-      "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00"
+      "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+      "latitude": 37.2352073,
+      "longitude": 55.161836199999996,
+      "locationMethod": "user_provided_map_pin",
+      "neshanUrl": "https://neshan.org/maps/routing/car/destination/37.2352073,55.161836199999996"
     },
     {
       "id": "branch-091",
@@ -1802,7 +1826,11 @@
       "phones": [
         "02141703000"
       ],
-      "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00"
+      "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
+      "latitude": 38.430814399999996,
+      "longitude": 48.8789182,
+      "locationMethod": "user_provided_map_pin",
+      "neshanUrl": "https://neshan.org/maps/routing/car/destination/38.430814399999996,48.8789182"
     },
     {
       "id": "branch-092",

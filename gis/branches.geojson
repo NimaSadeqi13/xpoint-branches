@@ -1773,10 +1773,17 @@
         "address": "خیابان قائم مقام ، بعد از کوچه خالقی، کانون بازنشستگان تامین اجتماعی, فروشگاه مادیران",
         "phone": "021-41703000",
         "hours": "شنبه تا چهارشنبه 8:30 الی 14:00",
-        "neshanUrl": "",
-        "location_status": "missing_exact_coordinate"
+        "neshanUrl": "https://neshan.org/maps/routing/car/destination/34.2935818,48.829259099999994",
+        "location_status": "user_provided_map_pin",
+        "locationCode": ""
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.829259099999994,
+          34.2935818
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -2056,10 +2063,17 @@
         "address": "خیابان عطار فرعی 1 شرقی پلاک33 فروشگاه مادیران",
         "phone": "021-41703000",
         "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
-        "neshanUrl": "",
-        "location_status": "missing_exact_coordinate"
+        "neshanUrl": "https://neshan.org/maps/routing/car/destination/32.8808984,51.552537",
+        "location_status": "user_provided_map_pin",
+        "locationCode": ""
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.552537,
+          32.8808984
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -2074,10 +2088,17 @@
         "address": "خیابان شهدا - شهدای 1- انتهای میلان - فروشگاه مادیران",
         "phone": "021-41703000",
         "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
-        "neshanUrl": "",
-        "location_status": "missing_exact_coordinate"
+        "neshanUrl": "https://neshan.org/maps/routing/car/destination/32.8745835,59.2184489",
+        "location_status": "user_provided_map_pin",
+        "locationCode": ""
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.2184489,
+          32.8745835
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -2092,10 +2113,17 @@
         "address": "نبش میدان ابوطالب , فروشگاه مادیران",
         "phone": "9195977581",
         "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
-        "neshanUrl": "",
-        "location_status": "missing_exact_coordinate"
+        "neshanUrl": "https://neshan.org/maps/routing/car/destination/36.3200377,59.589579799999996",
+        "location_status": "user_provided_map_pin",
+        "locationCode": ""
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.589579799999996,
+          36.3200377
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -2110,10 +2138,17 @@
         "address": "خیابان شهدا - شهدای 1 - مقابل شهرداری فروشگاه مادیران",
         "phone": "021-41703000",
         "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
-        "neshanUrl": "",
-        "location_status": "missing_exact_coordinate"
+        "neshanUrl": "https://neshan.org/maps/routing/car/destination/37.4778727,57.314890299999995",
+        "location_status": "user_provided_map_pin",
+        "locationCode": ""
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.314890299999995,
+          37.4778727
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -2128,10 +2163,17 @@
         "address": "خیابان نامجو، نبش تقاطع استاد شهریار فروشگاه مادیران",
         "phone": "021-41703000",
         "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
-        "neshanUrl": "",
-        "location_status": "missing_exact_coordinate"
+        "neshanUrl": "https://neshan.org/maps/routing/car/destination/37.2352073,55.161836199999996",
+        "location_status": "user_provided_map_pin",
+        "locationCode": ""
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.161836199999996,
+          37.2352073
+        ]
+      }
     },
     {
       "type": "Feature",
@@ -2146,10 +2188,17 @@
         "address": "بلوار جمهوری اسلامی – مجتمع مسکونی گمرک فروشگاه مادیران",
         "phone": "021-41703000",
         "hours": "شنبه تا پنجشنبه 9:00 الی 14:00 - 16:00 الی 21:00",
-        "neshanUrl": "",
-        "location_status": "missing_exact_coordinate"
+        "neshanUrl": "https://neshan.org/maps/routing/car/destination/38.430814399999996,48.8789182",
+        "location_status": "user_provided_map_pin",
+        "locationCode": ""
       },
-      "geometry": null
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.8789182,
+          38.430814399999996
+        ]
+      }
     },
     {
       "type": "Feature",
